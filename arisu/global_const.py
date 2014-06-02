@@ -1,6 +1,8 @@
 """
 Some global parameters inherited from:
 https://github.com/Mekire/meks-pygame-samples/blob/master/eight_dir_move.py
+This can be used
+just do: global_const.<yourconstant>
 """
 SCREEN_SIZE = (500, 500)
 
@@ -9,8 +11,6 @@ RED = (255, 0, 0)
 BLACK = (0, 0, 0)
 TRANSPARENT = (0, 0, 0, 0)
 
-#This global constant serves as a very useful convenience for me.
-DIRECT_DICT = {pg.K_LEFT : (-1, 0),
-               pg.K_RIGHT : ( 1, 0),
-               pg.K_UP : ( 0,-1),
-               pg.K_DOWN : ( 0, 1)}
+#Global dictionary for holding pictures
+ch_img = {}
+
