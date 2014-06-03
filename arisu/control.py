@@ -6,11 +6,10 @@ Overall game flow follows his examples
 import os
 import pygame as pg
 
-from arisu.characters import player
+from characters.player import player
 
-
-SCREEN_SIZE = (500, 500)
-WHITE = (255, 255, 255)
+#import global constants here
+import global_const
 
 class control(object):
     """Keep things under control."""
@@ -19,7 +18,7 @@ class control(object):
         os.environ['SDL_VIDEO_CENTERED'] = '1'
         pg.init()
         pg.display.set_caption("Move me with the Arrow Keys.")
-        self.screen = pg.display.set_mode(SCREEN_SIZE)
+        self.screen = pg.display.set_mode(global_const.SCREEN_SIZE)
         self.screen_rect = self.screen.get_rect()
         self.clock = pg.time.Clock()
         self.fps = 60.0
@@ -40,7 +39,7 @@ class control(object):
         while not self.done:
             self.event_loop()
             self.player.update(self.screen_rect, self.keys)
-            self.screen.fill(WHITE)
+            self.screen.fill(global_const.WHITE)
             self.player.draw(self.screen)
             pg.display.update()
             self.clock.tick(self.fps)

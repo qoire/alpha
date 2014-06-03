@@ -4,8 +4,7 @@ Ideally, nothing should be done here except for instantiation and inclusion
 """
 import pygame as pg
 import sys
-
-from arisu import control
+from arisu.control import control
 
 
 if __name__ == "__main__":

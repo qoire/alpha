@@ -3,8 +3,6 @@ Inherited from:
 https://github.com/Mekire/meks-pygame-samples/blob/master/eight_dir_move.py
 """
 import pygame as pg
-import sys
-import os
 from .. import global_const
 
 #This global constant serves as a very useful convenience for me.

@@ -1,0 +1,270 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23654340-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <title>serge.blocks.sounds &mdash; serge 0.4.1.3 documentation</title>
+    
+    <link rel="stylesheet" href="../../../_static/pp.css" type="text/css" />
+    <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../../',
+        VERSION:     '0.4.1.3',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../../_static/doctools.js"></script>
+    <link rel="top" title="serge 0.4.1.3 documentation" href="../../../index.html" />
+    <link rel="up" title="Module code" href="../../index.html" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Neuton&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Nobile:regular,italic,bold,bolditalic&amp;subset=latin" type="text/css" media="screen" charset="utf-8" />
+<!--[if lte IE 6]>
+<link rel="stylesheet" href="../../../_static/ie6.css" type="text/css" media="screen" charset="utf-8" />
+<![endif]-->
+
+  </head>
+  <body>
+<div class="header">
+  <div class="logo">
+    <a href="../../../index.html">
+      <img class="logo" src="../../../_static/pyramid_text.png" alt="Logo"/>
+    </a>
+  </div>
+</div>
+
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">serge 0.4.1.3 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" accesskey="U">Module code</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <h1>Source code for serge.blocks.sounds</h1><div class="highlight"><pre>
+<span class="sd">&quot;&quot;&quot;Useful blocks for sounds&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">math</span>
+
+<span class="kn">import</span> <span class="nn">serge.sound</span>
+<span class="kn">import</span> <span class="nn">serge.actor</span>
+
+
+<div class="viewcode-block" id="SoundTexture"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture">[docs]</a><span class="k">class</span> <span class="nc">SoundTexture</span><span class="p">(</span><span class="n">serge</span><span class="o">.</span><span class="n">actor</span><span class="o">.</span><span class="n">Actor</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;An actor that manages a number of sounds to create a texture</span>
+<span class="sd">    </span>
+<span class="sd">    The actor can control sounds that are produced either ambiently (everywhere)</span>
+<span class="sd">    or at specific locations. For the sounds at specific locations the sounds</span>
+<span class="sd">    will get louder as the listener gets closer to them.</span>
+<span class="sd">    </span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">tag</span><span class="p">,</span> <span class="n">name</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Initialise the SoundTexture&quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">SoundTexture</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">tag</span><span class="p">,</span> <span class="n">name</span><span class="p">)</span>
+        <span class="c">#</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sounds</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listener</span> <span class="o">=</span> <span class="bp">None</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_master_volume</span> <span class="o">=</span> <span class="mf">1.0</span>
+        
+<div class="viewcode-block" id="SoundTexture.setListener"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.setListener">[docs]</a>    <span class="k">def</span> <span class="nf">setListener</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">listener</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Set the listener for the sounds</span>
+<span class="sd">        </span>
+<span class="sd">        The listener is an actor and the sounds play at a volume determined</span>
+<span class="sd">        by the location of the listener relative to each sound.</span>
+<span class="sd">        </span>
+<span class="sd">        :param listener: an actor</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">listener</span> <span class="o">=</span> <span class="n">listener</span>
+        </div>
+<div class="viewcode-block" id="SoundTexture.getListener"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.getListener">[docs]</a>    <span class="k">def</span> <span class="nf">getListener</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Return the listener&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">listener</span>
+        </div>
+<div class="viewcode-block" id="SoundTexture.addAmbientSound"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.addAmbientSound">[docs]</a>    <span class="k">def</span> <span class="nf">addAmbientSound</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sound</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Add an ambient sound to the texture</span>
+<span class="sd">        </span>
+<span class="sd">        An ambient sound plays at the same volume no matter where the listener</span>
+<span class="sd">        is. Ambient sounds still get paused with the other sounds.</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sounds</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">AmbientSound</span><span class="p">(</span><span class="n">sound</span><span class="p">))</span>
+</div>
+<div class="viewcode-block" id="SoundTexture.addPositionalSound"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.addPositionalSound">[docs]</a>    <span class="k">def</span> <span class="nf">addPositionalSound</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sound</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Add a positional sound to the texture</span>
+<span class="sd">        </span>
+<span class="sd">        A position sound plays at one or more locations in space and its volume is dependent</span>
+<span class="sd">        on the location of the listener.</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">sounds</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">sound</span><span class="p">)</span>
+</div>
+<div class="viewcode-block" id="SoundTexture.getSounds"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.getSounds">[docs]</a>    <span class="k">def</span> <span class="nf">getSounds</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Return all the sounds that we are controlling&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">sounds</span>
+   </div>
+<div class="viewcode-block" id="SoundTexture.set_volume"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.set_volume">[docs]</a>    <span class="k">def</span> <span class="nf">set_volume</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">volume</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Set the master volume</span>
+<span class="sd">        </span>
+<span class="sd">        This affects the volume of all sounds. The target volume for a sound is multiplied</span>
+<span class="sd">        by this master.</span>
+<span class="sd">        </span>
+<span class="sd">        :param volume: master volume setting (0=silent, 1=full volume)</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">_master_volume</span> <span class="o">=</span> <span class="n">volume</span>
+        <span class="k">for</span> <span class="n">sound</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">getSounds</span><span class="p">():</span>
+            <span class="n">sound</span><span class="o">.</span><span class="n">set_volume</span><span class="p">(</span><span class="n">volume</span><span class="p">)</span>
+       </div>
+<div class="viewcode-block" id="SoundTexture.get_volume"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.get_volume">[docs]</a>    <span class="k">def</span> <span class="nf">get_volume</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Return the master value setting&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">_master_volume</span>
+     </div>
+<div class="viewcode-block" id="SoundTexture.play"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.play">[docs]</a>    <span class="k">def</span> <span class="nf">play</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">loops</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Play the sounds</span>
+<span class="sd">        </span>
+<span class="sd">        :param loops: number of times to loop the sounds (0=never, -1=for ever)</span>
+<span class="sd">        </span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">sound</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">getSounds</span><span class="p">():</span>
+            <span class="n">sound</span><span class="o">.</span><span class="n">play</span><span class="p">(</span><span class="n">loops</span><span class="p">)</span>
+        </div>
+<div class="viewcode-block" id="SoundTexture.pause"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.pause">[docs]</a>    <span class="k">def</span> <span class="nf">pause</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Pause the sounds&quot;&quot;&quot;</span>
+        <span class="k">for</span> <span class="n">sound</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">getSounds</span><span class="p">():</span>
+            <span class="n">sound</span><span class="o">.</span><span class="n">pause</span><span class="p">()</span>    
+            </div>
+<div class="viewcode-block" id="SoundTexture.updateActor"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.SoundTexture.updateActor">[docs]</a>    <span class="k">def</span> <span class="nf">updateActor</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">interval</span><span class="p">,</span> <span class="n">world</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Update the actor&quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">SoundTexture</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">updateActor</span><span class="p">(</span><span class="n">interval</span><span class="p">,</span> <span class="n">world</span><span class="p">)</span>
+        <span class="c">#</span>
+        <span class="c"># Update the volume of all sounds</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">listener</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">sound</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">getSounds</span><span class="p">():</span>
+                <span class="n">volume</span> <span class="o">=</span> <span class="n">sound</span><span class="o">.</span><span class="n">get_scaled_volume</span><span class="p">((</span><span class="bp">self</span><span class="o">.</span><span class="n">listener</span><span class="o">.</span><span class="n">x</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">listener</span><span class="o">.</span><span class="n">y</span><span class="p">))</span>
+                <span class="n">sound</span><span class="o">.</span><span class="n">set_volume</span><span class="p">(</span><span class="n">volume</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">_master_volume</span><span class="p">)</span>
+                    
+
+</div></div>
+<div class="viewcode-block" id="AmbientSound"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.AmbientSound">[docs]</a><span class="k">class</span> <span class="nc">AmbientSound</span><span class="p">(</span><span class="n">serge</span><span class="o">.</span><span class="n">sound</span><span class="o">.</span><span class="n">SoundItem</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A sound located everywhere in space&quot;&quot;&quot;</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sound</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Initialise the sound&quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">AmbientSound</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">sound</span><span class="o">=</span><span class="n">sound</span><span class="p">)</span>
+        
+<div class="viewcode-block" id="AmbientSound.get_scaled_volume"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.AmbientSound.get_scaled_volume">[docs]</a>    <span class="k">def</span> <span class="nf">get_scaled_volume</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">listener_position</span><span class="p">,</span> <span class="n">master_volume</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Return the sound volume according to the listener position&quot;&quot;&quot;</span>
+        <span class="k">return</span> <span class="mf">1.0</span>
+               
+        </div></div>
+<div class="viewcode-block" id="LocationalSound"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.LocationalSound">[docs]</a><span class="k">class</span> <span class="nc">LocationalSound</span><span class="p">(</span><span class="n">AmbientSound</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A sound that is located somewhere in space&quot;&quot;&quot;</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sound</span><span class="p">,</span> <span class="n">location</span><span class="p">,</span> <span class="n">dropoff</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Initialise the sound&quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">LocationalSound</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">sound</span><span class="p">)</span>
+        <span class="c">#</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">location</span> <span class="o">=</span> <span class="n">location</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dropoff</span> <span class="o">=</span> <span class="n">dropoff</span>
+        
+<div class="viewcode-block" id="LocationalSound.get_scaled_volume"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.LocationalSound.get_scaled_volume">[docs]</a>    <span class="k">def</span> <span class="nf">get_scaled_volume</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">listener_position</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Update the sound volume according to the listener position&quot;&quot;&quot;</span>
+        <span class="n">dist</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">listener_position</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">location</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span><span class="p">(</span><span class="n">listener_position</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="bp">self</span><span class="o">.</span><span class="n">location</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">max</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">-</span><span class="n">dist</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">dropoff</span><span class="p">)</span>
+       
+</div></div>
+<div class="viewcode-block" id="LocationalSounds"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.LocationalSounds">[docs]</a><span class="k">class</span> <span class="nc">LocationalSounds</span><span class="p">(</span><span class="n">AmbientSound</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;A series of sounds that are located at a number of places in space but generate only a single sound&quot;&quot;&quot;</span>
+    
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">sound</span><span class="p">,</span> <span class="n">locations</span><span class="p">,</span> <span class="n">dropoff</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Initialise the sound&quot;&quot;&quot;</span>
+        <span class="nb">super</span><span class="p">(</span><span class="n">LocationalSounds</span><span class="p">,</span> <span class="bp">self</span><span class="p">)</span><span class="o">.</span><span class="n">__init__</span><span class="p">(</span><span class="n">sound</span><span class="p">)</span>
+        <span class="c">#</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">locations</span> <span class="o">=</span> <span class="n">locations</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">dropoff</span> <span class="o">=</span> <span class="n">dropoff</span>
+        
+<div class="viewcode-block" id="LocationalSounds.get_scaled_volume"><a class="viewcode-back" href="../../../blocks.html#serge.blocks.sounds.LocationalSounds.get_scaled_volume">[docs]</a>    <span class="k">def</span> <span class="nf">get_scaled_volume</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">listener_position</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;Update the sound volume according to the listener position&quot;&quot;&quot;</span>
+        <span class="n">total</span> <span class="o">=</span> <span class="mf">0.0</span>
+        <span class="k">for</span> <span class="n">location</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">locations</span><span class="p">:</span>
+            <span class="n">dist</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">listener_position</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">-</span><span class="n">location</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span> <span class="o">+</span><span class="p">(</span><span class="n">listener_position</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">-</span><span class="n">location</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span>
+            <span class="n">total</span> <span class="o">+=</span> <span class="nb">max</span><span class="p">(</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">1.0</span><span class="o">-</span><span class="n">dist</span><span class="o">/</span><span class="bp">self</span><span class="o">.</span><span class="n">dropoff</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">min</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="n">total</span><span class="p">)</span>
+       
+        </div></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="../../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../../../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../../../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li><a href="../../../index.html">serge 0.4.1.3 documentation</a> &raquo;</li>
+          <li><a href="../../index.html" >Module code</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2012, Paul Paterson.
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.1.3.
+    </div>
+  </body>
+</html>

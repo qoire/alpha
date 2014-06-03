@@ -1,0 +1,858 @@
+\begin{theindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter A
+  \item Achievement (class in serge.blocks.achievements), \hyperpage{50}
+  \item AchievementBanner (class in serge.blocks.achievements), \hyperpage{50}
+  \item AchievementManager (class in serge.blocks.achievements), \hyperpage{50}
+  \item AchievementsGrid (class in serge.blocks.achievements), \hyperpage{51}
+  \item AchievementStatus (class in serge.blocks.achievements), \hyperpage{51}
+  \item activateWorld() (serge.world.World method), \hyperpage{89}
+  \item Actor (class in serge.actor), \hyperpage{84}
+  \item actor (module), \hyperpage{84}
+  \item ActorCollection (class in serge.actor), \hyperpage{88}
+  \item actorEntry() (serge.blocks.actors.FocusManager method), \hyperpage{52}
+  \item actorSelected() (serge.blocks.actors.FocusManager method), \hyperpage{52}
+  \item addAchievementsBannerToWorld() (in module serge.blocks.achievements), \hyperpage{51}
+  \item addAchievementsWorld() (in module serge.blocks.achievements), \hyperpage{51}
+  \item addActor() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item addActor() (serge.blocks.layout.Bar method), \hyperpage{63}
+  \item addActor() (serge.blocks.layout.Grid method), \hyperpage{64}
+  \item addActor() (serge.blocks.layout.MultiGrid method), \hyperpage{64}
+  \item addActor() (serge.world.World method), \hyperpage{89}
+  \item addActor() (serge.zone.Zone method), \hyperpage{83}
+  \item addActorToWorld() (in module serge.blocks.utils), \hyperpage{70}
+  \item addBlanks() (serge.blocks.layout.Bar method), \hyperpage{63}
+  \item addCategory() (serge.blocks.scores.HighScoreTable method), \hyperpage{65}
+  \item addChild() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item addChild() (serge.blocks.actors.FocusManager method), \hyperpage{52}
+  \item addDropTarget() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item addedToWorld() (serge.actor.Actor method), \hyperpage{85}
+  \item addedToWorld() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item addedToWorld() (serge.actor.PhysicallyMountableActor method), \hyperpage{87}
+  \item addedToWorld() (serge.blocks.achievements.AchievementBanner method), \hyperpage{50}
+  \item addedToWorld() (serge.blocks.achievements.AchievementsGrid method), \hyperpage{51}
+  \item addedToWorld() (serge.blocks.achievements.AchievementStatus method), \hyperpage{51}
+  \item addedToWorld() (serge.blocks.actors.AnimateThenDieActor method), \hyperpage{52}
+  \item addedToWorld() (serge.blocks.actors.FocusManager method), \hyperpage{52}
+  \item addedToWorld() (serge.blocks.actors.FPSDisplay method), \hyperpage{52}
+  \item addedToWorld() (serge.blocks.actors.ScreenActor method), \hyperpage{53}
+  \item addedToWorld() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+  \item addedToWorld() (serge.blocks.effects.ColourPhaser method), \hyperpage{61}
+  \item addLayer() (serge.blocks.tiled.TileMap method), \hyperpage{68}
+  \item addLayer() (serge.render.Renderer method), \hyperpage{91}
+  \item addLayerTypes() (serge.blocks.tiled.TileMap class method), \hyperpage{68}
+  \item addLogger() (serge.common.Loggable method), \hyperpage{121}
+  \item addMuteButtonToWorlds() (in module serge.blocks.utils), \hyperpage{70}
+  \item addObject() (serge.blocks.tiled.Layer method), \hyperpage{68}
+  \item addScore() (serge.blocks.scores.Category method), \hyperpage{65}
+  \item addScore() (serge.blocks.scores.HighScoreTable method), \hyperpage{65}
+  \item addSpriteActorToWorld() (in module serge.blocks.utils), \hyperpage{70}
+  \item addTextItemsToWorld() (in module serge.blocks.utils), \hyperpage{70}
+  \item addTextToWorld() (in module serge.blocks.utils), \hyperpage{70}
+  \item addVisualActorToWorld() (in module serge.blocks.utils), \hyperpage{70}
+  \item addWorld() (serge.engine.Engine method), \hyperpage{79}
+  \item addZone() (serge.world.World method), \hyperpage{89}
+  \item afterRender() (serge.engine.EngineStats method), \hyperpage{81}
+  \item AlreadyATarget, \hyperpage{60}
+  \item AlreadyInCell, \hyperpage{63}
+  \item angle (serge.simplevecs.Vec2d attribute), \hyperpage{117}
+  \item angle\_degrees (serge.simplevecs.Vec2d attribute), \hyperpage{117}
+  \item AnimateThenDieActor (class in serge.blocks.actors), \hyperpage{51}
+  \item areAnyClicked() (serge.input.Keyboard method), \hyperpage{107}
+  \item areAnyDown() (serge.input.Keyboard method), \hyperpage{107}
+  \item assignBehaviour() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item asString() (serge.serialize.Serializable method), \hyperpage{122}
+  \item attachBuilder() (serge.engine.Engine method), \hyperpage{79}
+  \item AttributeFade (class in serge.blocks.effects), \hyperpage{61}
+  \item AudioRegistry (class in serge.sound), \hyperpage{103}
+  \item autoAddActor() (serge.blocks.layout.Grid method), \hyperpage{64}
+  \item AvoidActor (class in serge.blocks.behaviours), \hyperpage{54}
+  \item AvoidActorsWithTag (class in serge.blocks.behaviours), \hyperpage{55}
+
+  \indexspace
+  \bigletter B
+  \item backToPreviousWorld() (in module serge.blocks.utils), \hyperpage{70}
+  \item BadCategory, \hyperpage{65}
+  \item BadCondition, \hyperpage{51}
+  \item BadData, \hyperpage{65}
+  \item BadInheritance, \hyperpage{66}
+  \item BadLayer, \hyperpage{68}
+  \item BadOption, \hyperpage{58}
+  \item BadReport, \hyperpage{51}
+  \item BadTestType, \hyperpage{51}
+  \item BadThemeDefinition, \hyperpage{66}
+  \item BadThemeFile, \hyperpage{66}
+  \item BadTiledFile, \hyperpage{68}
+  \item Bar (class in serge.blocks.layout), \hyperpage{63}
+  \item BaseGrid (class in serge.blocks.layout), \hyperpage{63}
+  \item beforeRender() (serge.engine.EngineStats method), \hyperpage{81}
+  \item Behaviour (class in serge.blocks.behaviours), \hyperpage{55}
+  \item BehaviourAlreadyPaused, \hyperpage{55}
+  \item BehaviourManager (class in serge.blocks.behaviours), \hyperpage{55}
+  \item BehaviourNotPaused, \hyperpage{55}
+  \item BehaviourRecord (class in serge.blocks.behaviours), \hyperpage{55}
+  \item Blink (class in serge.blocks.behaviours), \hyperpage{56}
+  \item Broadcaster (class in serge.events), \hyperpage{113}
+
+  \indexspace
+  \bigletter C
+  \item Camera (class in serge.camera), \hyperpage{95}
+  \item camera (module), \hyperpage{91}
+  \item canSee() (serge.camera.Camera method), \hyperpage{95}
+  \item canSee() (serge.camera.NullCamera method), \hyperpage{96}
+  \item canSeeActors() (serge.camera.Camera method), \hyperpage{95}
+  \item Category (class in serge.blocks.scores), \hyperpage{65}
+  \item CellEmpty, \hyperpage{63}
+  \item CellOccupied, \hyperpage{63}
+  \item checkForDrops() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item checkNetworkXVersion() (in module serge.blocks.utils), \hyperpage{70}
+  \item checkPythonVersion() (in module serge.blocks.utils), \hyperpage{70}
+  \item chooseOption() (serge.blocks.conversation.ConversationManager method), \hyperpage{58}
+  \item Circle (class in serge.blocks.visualblocks), \hyperpage{71}
+  \item CircleText (class in serge.blocks.visualblocks), \hyperpage{71}
+  \item clearActors() (serge.world.World method), \hyperpage{89}
+  \item clearActors() (serge.zone.Zone method), \hyperpage{83}
+  \item clearActorsExceptTags() (serge.world.World method), \hyperpage{89}
+  \item clearActorsWithTags() (serge.world.World method), \hyperpage{89}
+  \item clearClick() (serge.input.Mouse method), \hyperpage{108}
+  \item clearFrames() (serge.blocks.utils.MovieRecorder method), \hyperpage{69}
+  \item clearGrid() (serge.blocks.layout.BaseGrid method), \hyperpage{63}
+  \item clearItems() (serge.registry.GeneralStore method), \hyperpage{122}
+  \item clearItems() (serge.visual.FontStore method), \hyperpage{100}
+  \item clearLayers() (serge.render.Renderer method), \hyperpage{92}
+  \item clearSurface() (serge.render.Layer method), \hyperpage{94}
+  \item clearSurface() (serge.render.Renderer method), \hyperpage{92}
+  \item clearSurface() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item clearSurface() (serge.render.VirtualLayer method), \hyperpage{94}
+  \item clearSurface() (serge.visual.SurfaceDrawing method), \hyperpage{98}
+  \item clearWorlds() (serge.engine.Engine method), \hyperpage{79}
+  \item clearZones() (serge.world.World method), \hyperpage{89}
+  \item clickedActor() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item collidepoint() (serge.geometry.SimpleRect method), \hyperpage{117}
+  \item colliderect() (serge.geometry.SimpleRect method), \hyperpage{117}
+  \item colour (serge.blocks.visualblocks.Circle attribute), \hyperpage{71}
+  \item colour (serge.blocks.visualblocks.Rectangle attribute), \hyperpage{72}
+  \item ColourPhaser (class in serge.blocks.effects), \hyperpage{61}
+  \item common (module), \hyperpage{121}
+  \item CompositeActor (class in serge.actor), \hyperpage{86}
+  \item ConstantVelocity (class in serge.blocks.behaviours), \hyperpage{56}
+  \item Container (class in serge.blocks.layout), \hyperpage{63}
+  \item contains() (serge.geometry.SimpleRect method), \hyperpage{117}
+  \item ConversationManager (class in serge.blocks.conversation), \hyperpage{58}
+  \item copy() (serge.serialize.Serializable method), \hyperpage{122}
+  \item cpvrotate() (serge.simplevecs.Vec2d method), \hyperpage{117}
+  \item cpvunrotate() (serge.simplevecs.Vec2d method), \hyperpage{117}
+  \item createInstance() (serge.serialize.Serializable class method), \hyperpage{122}
+  \item createLayers() (in module serge.blocks.utils), \hyperpage{70}
+  \item createLayersForEngine() (in module serge.blocks.utils), \hyperpage{70}
+  \item createShadow() (serge.blocks.visualeffects.Shadow method), \hyperpage{73}
+  \item createVirtualLayersForEngine() (in module serge.blocks.utils), \hyperpage{70}
+  \item createWorldsForEngine() (in module serge.blocks.utils), \hyperpage{71}
+  \item cross() (serge.simplevecs.Vec2d method), \hyperpage{117}
+
+  \indexspace
+  \bigletter D
+  \item darkenSurf() (in module serge.blocks.visualeffects), \hyperpage{74}
+  \item darkenSurf2() (in module serge.blocks.visualeffects), \hyperpage{74}
+  \item deactivateWorld() (serge.world.World method), \hyperpage{89}
+  \item debugMethod() (in module serge.blocks.utils), \hyperpage{71}
+  \item Delay (class in serge.blocks.behaviours), \hyperpage{56}
+  \item deleteFade() (serge.blocks.visualeffects.FadingScreen method), \hyperpage{73}
+  \item detachBuilder() (serge.engine.Engine method), \hyperpage{79}
+  \item dot() (serge.simplevecs.Vec2d method), \hyperpage{117}
+  \item DragController (class in serge.blocks.dragndrop), \hyperpage{60}
+  \item Drawing (class in serge.visual), \hyperpage{97}
+  \item DropNotAllowed, \hyperpage{60}
+  \item DuplicateAchievement, \hyperpage{51}
+  \item DuplicateActor, \hyperpage{61}
+  \item DuplicateBehaviour, \hyperpage{56}
+  \item DuplicateCategory, \hyperpage{65}
+  \item duplicateItem() (serge.registry.GeneralStore method), \hyperpage{123}
+
+  \indexspace
+  \bigletter E
+  \item Effect (class in serge.blocks.effects), \hyperpage{61}
+  \item Engine (class in serge.engine), \hyperpage{79}
+  \item engine (module), \hyperpage{79}
+  \item EngineStats (class in serge.engine), \hyperpage{81}
+  \item EventAware (class in serge.common), \hyperpage{121}
+  \item events (module), \hyperpage{107}, \hyperpage{113}, \hyperpage{115}
+
+  \indexspace
+  \bigletter F
+  \item fadeout() (serge.sound.MusicStore method), \hyperpage{104}
+  \item fadeout() (serge.sound.SoundItem method), \hyperpage{104}
+  \item fadeSurface() (in module serge.blocks.visualeffects), \hyperpage{74}
+  \item FadingLayer (class in serge.blocks.visualeffects), \hyperpage{73}
+  \item FadingScreen (class in serge.blocks.visualeffects), \hyperpage{73}
+  \item findActorByName() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item findActorByName() (serge.world.World method), \hyperpage{89}
+  \item findActorByName() (serge.zone.Zone method), \hyperpage{83}
+  \item findActorLocation() (serge.blocks.layout.Grid method), \hyperpage{64}
+  \item findActorLocation() (serge.blocks.layout.MultiGrid method), \hyperpage{64}
+  \item findActorsAt() (serge.world.World method), \hyperpage{89}
+  \item findActorsByTag() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item findActorsByTag() (serge.world.World method), \hyperpage{89}
+  \item findActorsByTag() (serge.zone.Zone method), \hyperpage{83}
+  \item findActorsByTags() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item findFirstActorByTag() (serge.zone.Zone method), \hyperpage{83}
+  \item findNode() (serge.blocks.conversation.ConversationManager method), \hyperpage{58}
+  \item findNodeByID() (serge.blocks.conversation.ConversationManager method), \hyperpage{58}
+  \item finish() (serge.blocks.effects.Effect method), \hyperpage{61}
+  \item FlashFor (class in serge.blocks.behaviours), \hyperpage{56}
+  \item flipHorizontal() (serge.visual.Drawing method), \hyperpage{97}
+  \item flipHorizontal() (serge.visual.Sprite method), \hyperpage{99}
+  \item flipVertical() (serge.visual.Drawing method), \hyperpage{97}
+  \item flipVertical() (serge.visual.Sprite method), \hyperpage{99}
+  \item FocusManager (class in serge.blocks.actors), \hyperpage{52}
+  \item FontStore (class in serge.visual), \hyperpage{99}
+  \item forEach() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item FormattedText (class in serge.blocks.actors), \hyperpage{52}
+  \item FPSDisplay (class in serge.blocks.actors), \hyperpage{52}
+  \item fractalLine() (in module serge.blocks.fractals), \hyperpage{62}
+  \item fractalShape() (in module serge.blocks.fractals), \hyperpage{62}
+  \item from\_param() (serge.simplevecs.Vec2d class method), \hyperpage{117}
+  \item fromCenter() (serge.geometry.Rectangle class method), \hyperpage{115}
+  \item fromFile() (serge.serialize.Serializable class method), \hyperpage{122}
+  \item fromString() (serge.serialize.Serializable class method), \hyperpage{122}
+  \item fromXMLFile() (serge.blocks.conversation.ConversationManager class method), \hyperpage{58}
+
+  \indexspace
+  \bigletter G
+  \item gaussianBlur() (in module serge.blocks.visualeffects), \hyperpage{74}
+  \item GeneralStore (class in serge.registry), \hyperpage{122}
+  \item get\_angle\_between() (serge.simplevecs.Vec2d method), \hyperpage{117}
+  \item get\_angle\_degrees\_between() (serge.simplevecs.Vec2d method), \hyperpage{117}
+  \item get\_dist\_sqrd() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item get\_distance() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item get\_length() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item get\_length\_sqrd() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item get\_volume() (serge.sound.SoundItem method), \hyperpage{104}
+  \item getAchievements() (serge.blocks.achievements.AchievementManager method), \hyperpage{50}
+  \item getActorAt() (serge.blocks.layout.Grid method), \hyperpage{64}
+  \item getActorEvents() (serge.input.Mouse method), \hyperpage{108}
+  \item getActors() (serge.world.World method), \hyperpage{89}
+  \item getActors() (serge.zone.Zone method), \hyperpage{83}
+  \item getActorsAt() (serge.blocks.layout.MultiGrid method), \hyperpage{64}
+  \item getActorsUnderMouse() (serge.input.Mouse method), \hyperpage{108}
+  \item getAngle() (serge.actor.Actor method), \hyperpage{85}
+  \item getAngle() (serge.visual.Drawing method), \hyperpage{97}
+  \item getAngleFromCardinal() (in module serge.blocks.directions), \hyperpage{59}
+  \item getArea() (serge.geometry.Rectangle method), \hyperpage{115}
+  \item getCamera() (serge.render.Renderer method), \hyperpage{92}
+  \item getCardinalFromAngle() (in module serge.blocks.directions), \hyperpage{59}
+  \item getCardinalFromVector() (in module serge.blocks.directions), \hyperpage{59}
+  \item getCardinals() (in module serge.blocks.directions), \hyperpage{59}
+  \item getCategory() (serge.blocks.scores.HighScoreTable method), \hyperpage{66}
+  \item getCell() (serge.visual.Sprite method), \hyperpage{99}
+  \item getChild() (serge.blocks.conversation.ConversationManager method), \hyperpage{58}
+  \item getChildren() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item getChildren() (serge.blocks.conversation.ConversationManager method), \hyperpage{58}
+  \item getChildrenWithTag() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item getClicked() (serge.input.Keyboard method), \hyperpage{107}
+  \item getCoords() (serge.blocks.layout.BaseGrid method), \hyperpage{63}
+  \item getCoords() (serge.blocks.layout.HorizontalBar method), \hyperpage{64}
+  \item getCopy() (serge.input.KeyState method), \hyperpage{108}
+  \item getCopy() (serge.input.MouseState method), \hyperpage{109}
+  \item getCopy() (serge.visual.Drawing method), \hyperpage{98}
+  \item getCopy() (serge.visual.Sprite method), \hyperpage{99}
+  \item getCurrentWorld() (serge.engine.Engine method), \hyperpage{79}
+  \item getDistanceFrom() (serge.geometry.Rectangle method), \hyperpage{115}
+  \item getDraggedActor() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item getEngine() (serge.world.World method), \hyperpage{89}
+  \item getEventBroadcaster() (in module events), \hyperpage{113}
+  \item getFocus() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+  \item getGamePath() (in module serge.blocks.utils), \hyperpage{71}
+  \item getItem() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item getItemDefinitions() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item getItems() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item getKeyboard() (serge.engine.Engine method), \hyperpage{79}
+  \item getLayer() (serge.blocks.tiled.TileMap method), \hyperpage{68}
+  \item getLayer() (serge.render.Renderer method), \hyperpage{92}
+  \item getLayerBefore() (serge.render.Renderer method), \hyperpage{92}
+  \item getLayerByType() (serge.blocks.tiled.TileMap method), \hyperpage{68}
+  \item getLayerName() (serge.actor.Actor method), \hyperpage{85}
+  \item getLayers() (serge.blocks.tiled.TileMap method), \hyperpage{68}
+  \item getLayers() (serge.render.Renderer method), \hyperpage{92}
+  \item getLayersByType() (serge.blocks.tiled.TileMap method), \hyperpage{69}
+  \item getLayersForTile() (serge.blocks.tiled.TileMap method), \hyperpage{69}
+  \item getLink() (serge.blocks.conversation.ConversationManager method), \hyperpage{58}
+  \item getLocation() (serge.blocks.layout.BaseGrid method), \hyperpage{63}
+  \item getLocationsWithoutTile() (serge.blocks.tiled.Layer method), \hyperpage{68}
+  \item getLocationsWithTile() (serge.blocks.tiled.Layer method), \hyperpage{68}
+  \item getLogger() (in module registry), \hyperpage{121}
+  \item getManager() (in module serge.blocks.achievements), \hyperpage{51}
+  \item getMouse() (serge.engine.Engine method), \hyperpage{79}
+  \item getNames() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item getNewManager() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item getNiceName() (serge.actor.Actor method), \hyperpage{85}
+  \item getNiceName() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item getNodeVariables() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item getNumberOfCells() (serge.visual.Sprite method), \hyperpage{99}
+  \item getObject() (serge.blocks.tiled.Layer method), \hyperpage{68}
+  \item getObjectLayers() (serge.blocks.tiled.Tiled method), \hyperpage{69}
+  \item getObjects() (serge.blocks.tiled.Layer method), \hyperpage{68}
+  \item getOppositeCardinal() (in module serge.blocks.directions), \hyperpage{59}
+  \item getOppositeVector() (in module serge.blocks.directions), \hyperpage{59}
+  \item getOrigin() (serge.geometry.Rectangle method), \hyperpage{115}
+  \item getParent() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item getPhysical() (serge.actor.Actor method), \hyperpage{85}
+  \item getPropertiesFrom() (serge.blocks.tiled.TileMap method), \hyperpage{69}
+  \item getProperty() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item getPropertyBagArray() (serge.blocks.tiled.TileMap method), \hyperpage{69}
+  \item getPropertyWithDefault() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item getRelativeLocation() (serge.camera.Camera method), \hyperpage{95}
+  \item getRelativeLocation() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item getRelativeLocationCentered() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item getRenderer() (serge.engine.Engine method), \hyperpage{79}
+  \item getRepeat() (serge.blocks.actors.RepeatedVisualActor method), \hyperpage{53}
+  \item getScreenPos() (serge.input.Mouse method), \hyperpage{108}
+  \item getScreenSize() (serge.render.Renderer method), \hyperpage{92}
+  \item getSelection() (serge.blocks.actors.ToggledMenu method), \hyperpage{54}
+  \item getSelectionIndex() (serge.blocks.actors.ToggledMenu method), \hyperpage{54}
+  \item getSimpleSetup() (in module serge.blocks.utils), \hyperpage{71}
+  \item getSize() (serge.blocks.tiled.Layer method), \hyperpage{68}
+  \item getSize() (serge.blocks.tiled.TileMap method), \hyperpage{69}
+  \item getSize() (serge.blocks.visualblocks.CircleText method), \hyperpage{71}
+  \item getSpatial() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item getSpatialCentered() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item getSpriteFor() (serge.blocks.tiled.Layer method), \hyperpage{68}
+  \item getSpriteName() (serge.actor.Actor method), \hyperpage{85}
+  \item getSpriteName() (serge.blocks.tiled.TileMap method), \hyperpage{69}
+  \item getSprites() (serge.engine.Engine method), \hyperpage{80}
+  \item getState() (serge.input.KeyState method), \hyperpage{108}
+  \item getState() (serge.input.MouseState method), \hyperpage{109}
+  \item getStaticScreenPos() (serge.input.Mouse method), \hyperpage{108}
+  \item getStats() (serge.engine.Engine method), \hyperpage{80}
+  \item getSurface() (serge.render.Renderer method), \hyperpage{92}
+  \item getSurface() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item getSurface() (serge.visual.Sprite method), \hyperpage{99}
+  \item getSurface() (serge.visual.SurfaceDrawing method), \hyperpage{98}
+  \item getSurfaceProcessingPipeline() (in module serge.blocks.worker), \hyperpage{74}
+  \item getTarget() (serge.camera.Camera method), \hyperpage{95}
+  \item getText() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+  \item getText() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item getTextEntered() (serge.input.Keyboard method), \hyperpage{107}
+  \item getTheme() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item getTypeFrom() (serge.blocks.tiled.TileMap method), \hyperpage{69}
+  \item getValue() (serge.blocks.actors.FormattedText method), \hyperpage{52}
+  \item getVariable() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item getVectorFromCardinal() (in module serge.blocks.directions), \hyperpage{60}
+  \item getVolume() (serge.sound.MusicStore method), \hyperpage{104}
+  \item getWorld() (serge.engine.Engine method), \hyperpage{80}
+  \item getWorlds() (serge.engine.Engine method), \hyperpage{80}
+  \item goBackToPreviousWorld() (serge.engine.Engine method), \hyperpage{80}
+  \item Grid (class in serge.blocks.layout), \hyperpage{64}
+
+  \indexspace
+  \bigletter H
+  \item handleEvent() (serge.common.EventAware method), \hyperpage{121}
+  \item hasActor() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item hasActor() (serge.world.World method), \hyperpage{89}
+  \item hasActor() (serge.zone.Zone method), \hyperpage{83}
+  \item hasActorWithName() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item hasActorWithTag() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item hasBehaviour() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item hasChild() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item hasChildren() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item hasFocus() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+  \item hasTheme() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item hideMe() (serge.blocks.achievements.AchievementBanner method), \hyperpage{50}
+  \item HighScoreTable (class in serge.blocks.scores), \hyperpage{65}
+  \item HorizontalBar (class in serge.blocks.layout), \hyperpage{64}
+
+  \indexspace
+  \bigletter I
+  \item increaseRepeat() (serge.blocks.actors.RepeatedVisualActor method), \hyperpage{53}
+  \item index (serge.blocks.achievements.Achievement attribute), \hyperpage{50}
+  \item inflate() (serge.geometry.SimpleRect method), \hyperpage{117}
+  \item inflate\_ip() (serge.geometry.SimpleRect method), \hyperpage{117}
+  \item init() (serge.actor.Actor method), \hyperpage{85}
+  \item init() (serge.actor.PhysicallyMountableActor method), \hyperpage{87}
+  \item init() (serge.blocks.achievements.Achievement method), \hyperpage{50}
+  \item init() (serge.blocks.achievements.AchievementManager method), \hyperpage{50}
+  \item init() (serge.camera.Camera method), \hyperpage{95}
+  \item init() (serge.camera.NullCamera method), \hyperpage{96}
+  \item init() (serge.engine.Engine method), \hyperpage{80}
+  \item init() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item init() (serge.physical.PhysicalConditions method), \hyperpage{111}
+  \item init() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item init() (serge.render.Renderer method), \hyperpage{92}
+  \item init() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item init() (serge.serialize.Serializable method), \hyperpage{122}
+  \item init() (serge.world.World method), \hyperpage{89}
+  \item init() (serge.zone.Zone method), \hyperpage{83}
+  \item initEvents() (serge.common.EventAware method), \hyperpage{121}
+  \item initialiseFromFile() (serge.blocks.achievements.AchievementManager method), \hyperpage{50}
+  \item initManager() (in module serge.blocks.achievements), \hyperpage{51}
+  \item initSurface() (serge.blocks.visualeffects.ShadowLayer method), \hyperpage{73}
+  \item initSurface() (serge.render.Layer method), \hyperpage{94}
+  \item initSurface() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item initSurface() (serge.render.VirtualLayer method), \hyperpage{95}
+  \item int\_tuple (serge.simplevecs.Vec2d attribute), \hyperpage{118}
+  \item InvalidFile, \hyperpage{59}
+  \item InvalidFormat, \hyperpage{66}
+  \item InvalidMenu, \hyperpage{52}
+  \item InvalidMenuItem, \hyperpage{52}
+  \item InvalidMotion, \hyperpage{62}
+  \item InvalidParameters, \hyperpage{71}
+  \item InvalidSort, \hyperpage{66}
+  \item InvalidSortColumn, \hyperpage{66}
+  \item InvalidSprite, \hyperpage{71}
+  \item involvesActor() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{55}
+  \item isAltDown() (serge.input.Keyboard method), \hyperpage{107}
+  \item isClicked() (serge.input.Keyboard method), \hyperpage{107}
+  \item isClicked() (serge.input.Mouse method), \hyperpage{108}
+  \item isComplete() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{55}
+  \item isControlDown() (serge.input.Keyboard method), \hyperpage{108}
+  \item isDown() (serge.input.Keyboard method), \hyperpage{108}
+  \item isDown() (serge.input.Mouse method), \hyperpage{108}
+  \item isDragging() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item isInside() (serge.geometry.Point method), \hyperpage{116}
+  \item isInside() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item isInside() (serge.geometry.SpatialObject method), \hyperpage{115}
+  \item isMet() (serge.blocks.achievements.Achievement method), \hyperpage{50}
+  \item isOff() (serge.blocks.visualblocks.TextToggle method), \hyperpage{72}
+  \item isOn() (serge.blocks.visualblocks.TextToggle method), \hyperpage{73}
+  \item isOverlapping() (serge.geometry.Point method), \hyperpage{116}
+  \item isOverlapping() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item isOverlapping() (serge.geometry.SpatialObject method), \hyperpage{115}
+  \item isPaused() (serge.sound.AudioRegistry method), \hyperpage{103}
+  \item isPlaying() (serge.sound.AudioRegistry method), \hyperpage{103}
+  \item isPlaying() (serge.sound.MusicStore method), \hyperpage{104}
+  \item isPlaying() (serge.sound.SoundItem method), \hyperpage{104}
+  \item isPlayingSong() (serge.sound.MusicStore method), \hyperpage{104}
+  \item isRunning() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{56}
+  \item isShiftDown() (serge.input.Keyboard method), \hyperpage{108}
+  \item isUp() (serge.input.Keyboard method), \hyperpage{108}
+  \item isUp() (serge.input.Mouse method), \hyperpage{108}
+  \item iterCellLocations() (serge.blocks.tiled.Layer method), \hyperpage{68}
+
+  \indexspace
+  \bigletter K
+  \item Keyboard (class in serge.input), \hyperpage{107}
+  \item KeyboardNSEW (class in serge.blocks.behaviours), \hyperpage{56}
+  \item KeyboardNSEWToVectorCallback (class in serge.blocks.behaviours), \hyperpage{56}
+  \item KeyboardQuit (class in serge.blocks.behaviours), \hyperpage{57}
+  \item KeyState (class in serge.input), \hyperpage{108}
+
+  \indexspace
+  \bigletter L
+  \item Layer (class in serge.blocks.tiled), \hyperpage{68}
+  \item Layer (class in serge.render), \hyperpage{94}
+  \item layer\_types (serge.blocks.tiled.Tiled attribute), \hyperpage{69}
+  \item length (serge.simplevecs.Vec2d attribute), \hyperpage{118}
+  \item linkEvent() (serge.common.EventAware method), \hyperpage{122}
+  \item load() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item loadFrom() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item loadFromFile() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item log (serge.blocks.achievements.AchievementManager attribute), \hyperpage{50}
+  \item Loggable (class in serge.common), \hyperpage{121}
+  \item loseFocus() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+
+  \indexspace
+  \bigletter M
+  \item makeFrame() (serge.blocks.utils.MovieRecorder method), \hyperpage{69}
+  \item makeMovie() (serge.blocks.utils.MovieRecorder method), \hyperpage{69}
+  \item makeReport() (serge.blocks.achievements.Achievement method), \hyperpage{50}
+  \item makeReport() (serge.blocks.achievements.AchievementManager method), \hyperpage{50}
+  \item Manager (class in serge.blocks.themes), \hyperpage{66}
+  \item markComplete() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{56}
+  \item marshallSurface() (in module serge.blocks.worker), \hyperpage{74}
+  \item matches() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{56}
+  \item matchesName() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{56}
+  \item meetAchievement() (serge.blocks.achievements.AchievementBanner method), \hyperpage{50}
+  \item MethodCallFade (class in serge.blocks.effects), \hyperpage{62}
+  \item MissingBehaviour, \hyperpage{57}
+  \item MissingDefault, \hyperpage{67}
+  \item MissingSchema, \hyperpage{67}
+  \item MountableActor (class in serge.actor), \hyperpage{87}
+  \item mountActor() (serge.actor.PhysicallyMountableActor method), \hyperpage{87}
+  \item Mouse (class in serge.input), \hyperpage{108}
+  \item mouseDown() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item MouseState (class in serge.input), \hyperpage{109}
+  \item move() (serge.actor.Actor method), \hyperpage{85}
+  \item move() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item move\_ip() (serge.geometry.SimpleRect method), \hyperpage{117}
+  \item moveActor() (serge.blocks.layout.Grid method), \hyperpage{64}
+  \item moveActor() (serge.blocks.layout.MultiGrid method), \hyperpage{64}
+  \item moveNext() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item moveTo() (serge.actor.Actor method), \hyperpage{85}
+  \item moveTo() (serge.actor.MountableActor method), \hyperpage{87}
+  \item moveTo() (serge.actor.PhysicallyMountableActor method), \hyperpage{87}
+  \item moveTo() (serge.blocks.layout.Container method), \hyperpage{63}
+  \item moveTo() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item MoveTowardsActor (class in serge.blocks.behaviours), \hyperpage{57}
+  \item MoveTowardsPoint (class in serge.blocks.behaviours), \hyperpage{57}
+  \item MoveWithMouse (class in serge.blocks.behaviours), \hyperpage{57}
+  \item MovieRecorder (class in serge.blocks.utils), \hyperpage{69}
+  \item MultiGrid (class in serge.blocks.layout), \hyperpage{64}
+  \item MusicItem (class in serge.sound), \hyperpage{105}
+  \item MusicStore (class in serge.sound), \hyperpage{104}
+  \item MuteButton (class in serge.blocks.actors), \hyperpage{53}
+  \item my\_properties (serge.blocks.achievements.Achievement attribute), \hyperpage{50}
+  \item my\_properties (serge.blocks.achievements.AchievementManager attribute), \hyperpage{50}
+  \item my\_properties (serge.blocks.scores.HighScoreTable attribute), \hyperpage{66}
+
+  \indexspace
+  \bigletter N
+  \item NodeNotFound, \hyperpage{59}
+  \item normalize\_return\_length() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item normalized() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item NotATarget, \hyperpage{61}
+  \item NotDragging, \hyperpage{61}
+  \item NotFound, \hyperpage{68}
+  \item NullCamera (class in serge.camera), \hyperpage{96}
+  \item numberOfActorsWithName() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item numberOfActorsWithTag() (serge.actor.ActorCollection method), \hyperpage{88}
+  \item NumericText (class in serge.blocks.actors), \hyperpage{53}
+
+  \indexspace
+  \bigletter O
+  \item ones() (serge.simplevecs.Vec2d static method), \hyperpage{118}
+  \item OneShotSequence (class in serge.blocks.behaviours), \hyperpage{57}
+  \item Optional (class in serge.blocks.behaviours), \hyperpage{57}
+  \item orderActors() (serge.render.Renderer method), \hyperpage{92}
+  \item OutOfRange, \hyperpage{65}, \hyperpage{71}
+  \item OverlappingRanges, \hyperpage{72}
+
+  \indexspace
+  \bigletter P
+  \item PanActor (class in serge.blocks.effects), \hyperpage{62}
+  \item ParallaxMotion (class in serge.blocks.behaviours), \hyperpage{57}
+  \item parseRichText() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item Pause (class in serge.blocks.effects), \hyperpage{62}
+  \item pause() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{56}
+  \item pause() (serge.blocks.effects.Effect method), \hyperpage{61}
+  \item pause() (serge.sound.AudioRegistry method), \hyperpage{103}
+  \item pause() (serge.sound.MusicItem method), \hyperpage{105}
+  \item pause() (serge.sound.MusicStore method), \hyperpage{105}
+  \item pause() (serge.sound.SoundItem method), \hyperpage{104}
+  \item pauseBehaviours() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item performBehaviour() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{56}
+  \item physical (module), \hyperpage{111}
+  \item PhysicalBody (class in serge.physical), \hyperpage{112}
+  \item PhysicalConditions (class in serge.physical), \hyperpage{111}
+  \item PhysicallyMountableActor (class in serge.actor), \hyperpage{87}
+  \item pipelineProcessor() (in module serge.blocks.worker), \hyperpage{74}
+  \item play() (serge.sound.AudioRegistry method), \hyperpage{103}
+  \item play() (serge.sound.MusicItem method), \hyperpage{105}
+  \item play() (serge.sound.MusicStore method), \hyperpage{105}
+  \item play() (serge.sound.SoundItem method), \hyperpage{104}
+  \item Point (class in serge.geometry), \hyperpage{116}
+  \item postRender() (serge.blocks.effects.ColourPhaser method), \hyperpage{61}
+  \item postRender() (serge.blocks.visualeffects.FadingLayer method), \hyperpage{73}
+  \item postRender() (serge.blocks.visualeffects.FadingScreen method), \hyperpage{73}
+  \item postRender() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item preRender() (serge.render.Renderer method), \hyperpage{92}
+  \item preRender() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item processEvent() (serge.common.EventAware method), \hyperpage{122}
+  \item processEvents() (serge.engine.Engine method), \hyperpage{80}
+  \item processEvents() (serge.world.World method), \hyperpage{89}
+  \item processNodeVariables() (serge.blocks.conversation.ConversationManager method), 
+		\hyperpage{59}
+  \item ProgressBar (class in serge.blocks.visualblocks), \hyperpage{72}
+  \item PropertyNotFound, \hyperpage{67}
+
+  \indexspace
+  \bigletter R
+  \item radius (serge.blocks.visualblocks.Circle attribute), \hyperpage{71}
+  \item RangesNotContiguous, \hyperpage{72}
+  \item RecordDesktop (class in serge.blocks.utils), \hyperpage{70}
+  \item recordFrame() (serge.engine.EngineStats method), \hyperpage{81}
+  \item Rectangle (class in serge.blocks.visualblocks), \hyperpage{72}
+  \item Rectangle (class in serge.geometry), \hyperpage{115}
+  \item RectangleText (class in serge.blocks.visualblocks), \hyperpage{72}
+  \item reduceRepeat() (serge.blocks.actors.RepeatedVisualActor method), \hyperpage{53}
+  \item reflowChildren() (serge.blocks.layout.Container method), \hyperpage{64}
+  \item registerAchievement() (serge.blocks.achievements.AchievementManager method), \hyperpage{50}
+  \item registerEvent() (serge.common.EventAware method), \hyperpage{122}
+  \item registerEvents() (serge.common.EventAware method), \hyperpage{122}
+  \item registerEventsFromModule() (serge.common.EventAware method), \hyperpage{122}
+  \item registerFromFiles() (serge.visual.Store method), \hyperpage{100}
+  \item registerItem() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item registerItem() (serge.visual.FontStore method), \hyperpage{100}
+  \item registerItemsFromPattern() (serge.visual.Store method), \hyperpage{100}
+  \item registerMultipleItems() (serge.visual.Store method), \hyperpage{100}
+  \item registry (module), \hyperpage{121}
+  \item removeActor() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item removeActor() (serge.blocks.layout.BaseGrid method), \hyperpage{63}
+  \item removeActor() (serge.blocks.layout.MultiGrid method), \hyperpage{64}
+  \item removeActor() (serge.world.World method), \hyperpage{89}
+  \item removeActor() (serge.zone.Zone method), \hyperpage{83}
+  \item removeActors() (serge.blocks.layout.MultiGrid method), \hyperpage{65}
+  \item removeBehaviour() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item removeBehaviourByName() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item removeBehaviours() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item removeBehavioursByName() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item removeChild() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item removeChildren() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item removeChildren() (serge.blocks.layout.BaseGrid method), \hyperpage{63}
+  \item removedFromWorld() (serge.actor.Actor method), \hyperpage{85}
+  \item removedFromWorld() (serge.actor.CompositeActor method), \hyperpage{86}
+  \item removeDropTarget() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item removeItem() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item removeLayer() (serge.render.Renderer method), \hyperpage{92}
+  \item removeLayerNamed() (serge.render.Renderer method), \hyperpage{92}
+  \item RemoveWhenOutOfRange (class in serge.blocks.behaviours), \hyperpage{57}
+  \item removeWorld() (serge.engine.Engine method), \hyperpage{80}
+  \item removeWorldNamed() (serge.engine.Engine method), \hyperpage{80}
+  \item render (module), \hyperpage{91}
+  \item render() (serge.blocks.visualeffects.ShadowLayer method), \hyperpage{73}
+  \item render() (serge.render.Layer method), \hyperpage{94}
+  \item render() (serge.render.Renderer method), \hyperpage{92}
+  \item render() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item render() (serge.render.VirtualLayer method), \hyperpage{95}
+  \item Renderer (class in serge.render), \hyperpage{91}
+  \item RenderingLayer (class in serge.render), \hyperpage{93}
+  \item renderTo() (serge.actor.Actor method), \hyperpage{85}
+  \item renderTo() (serge.blocks.actors.RepeatedVisualActor method), \hyperpage{53}
+  \item renderTo() (serge.blocks.visualblocks.CircleText method), \hyperpage{71}
+  \item renderTo() (serge.blocks.visualblocks.RectangleText method), \hyperpage{72}
+  \item renderTo() (serge.blocks.visualblocks.SpriteText method), \hyperpage{72}
+  \item renderTo() (serge.visual.Drawing method), \hyperpage{98}
+  \item renderTo() (serge.visual.Sprite method), \hyperpage{99}
+  \item renderTo() (serge.visual.SurfaceDrawing method), \hyperpage{98}
+  \item renderTo() (serge.visual.Text method), \hyperpage{100}
+  \item renderTo() (serge.world.World method), \hyperpage{89}
+  \item RepeatedVisualActor (class in serge.blocks.actors), \hyperpage{53}
+  \item resetAnimation() (serge.visual.Sprite method), \hyperpage{99}
+  \item resetCategory() (serge.blocks.scores.Category method), \hyperpage{65}
+  \item resetCategory() (serge.blocks.scores.HighScoreTable method), \hyperpage{66}
+  \item resetLayerTypes() (serge.blocks.tiled.TileMap class method), \hyperpage{69}
+  \item resetRepeat() (serge.blocks.actors.RepeatedVisualActor method), \hyperpage{53}
+  \item resetSurfaces() (serge.render.Renderer method), \hyperpage{92}
+  \item resetTable() (serge.blocks.scores.HighScoreTable method), \hyperpage{66}
+  \item resizeBy() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item resizeTo() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item restart() (serge.blocks.behaviours.BehaviourRecord method), \hyperpage{56}
+  \item restart() (serge.blocks.effects.Effect method), \hyperpage{61}
+  \item restart() (serge.blocks.effects.PanActor method), \hyperpage{62}
+  \item restartBehaviours() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item restartConversation() (serge.blocks.conversation.ConversationManager method), 
+		\hyperpage{59}
+  \item rezoneActors() (serge.world.World method), \hyperpage{89}
+  \item rotate() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item rotate\_degrees() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item rotateBy() (serge.visual.Drawing method), \hyperpage{98}
+  \item rotated() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item rotated\_degrees() (serge.simplevecs.Vec2d method), \hyperpage{118}
+  \item run() (serge.engine.Engine method), \hyperpage{80}
+  \item runAsync() (serge.engine.Engine method), \hyperpage{80}
+
+  \indexspace
+  \bigletter S
+  \item safeRegisterAchievement() (serge.blocks.achievements.AchievementManager method), 
+		\hyperpage{50}
+  \item save() (serge.engine.Engine method), \hyperpage{80}
+  \item saveAchievements() (serge.blocks.achievements.AchievementManager method), \hyperpage{50}
+  \item scale() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item scaleBy() (serge.visual.Drawing method), \hyperpage{98}
+  \item scaleBy() (serge.visual.Sprite method), \hyperpage{99}
+  \item scaleBy() (serge.visual.SurfaceDrawing method), \hyperpage{98}
+  \item scaleBy() (serge.visual.Text method), \hyperpage{100}
+  \item scheduleActorRemoval() (serge.world.World method), \hyperpage{89}
+  \item ScreenActor (class in serge.blocks.actors), \hyperpage{53}
+  \item selectItem() (serge.blocks.actors.ToggledMenu method), \hyperpage{54}
+  \item selectItemIndex() (serge.blocks.actors.ToggledMenu method), \hyperpage{54}
+  \item selectTheme() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item serge.blocks.achievements (module), \hyperpage{49}
+  \item serge.blocks.actors (module), \hyperpage{51}
+  \item serge.blocks.behaviours (module), \hyperpage{54}
+  \item serge.blocks.conversation (module), \hyperpage{58}
+  \item serge.blocks.directions (module), \hyperpage{59}
+  \item serge.blocks.dragndrop (module), \hyperpage{60}
+  \item serge.blocks.effects (module), \hyperpage{61}
+  \item serge.blocks.fractals (module), \hyperpage{62}
+  \item serge.blocks.layout (module), \hyperpage{63}
+  \item serge.blocks.scores (module), \hyperpage{65}
+  \item serge.blocks.singletons (module), \hyperpage{66}
+  \item serge.blocks.themes (module), \hyperpage{66}
+  \item serge.blocks.tiled (module), \hyperpage{68}
+  \item serge.blocks.utils (module), \hyperpage{69}
+  \item serge.blocks.visualblocks (module), \hyperpage{71}
+  \item serge.blocks.visualeffects (module), \hyperpage{73}
+  \item serge.blocks.worker (module), \hyperpage{74}
+  \item serge.sound.Music (in module sound), \hyperpage{103}
+  \item serge.sound.Sounds (in module sound), \hyperpage{103}
+  \item serge.visual.Fonts (in module visual), \hyperpage{97}
+  \item serge.visual.Sprites (in module visual), \hyperpage{97}
+  \item Serializable (class in serge.serialize), \hyperpage{122}
+  \item set\_volume() (serge.sound.SoundItem method), \hyperpage{104}
+  \item setAlpha() (serge.visual.Drawing method), \hyperpage{98}
+  \item setAlpha() (serge.visual.Sprite method), \hyperpage{99}
+  \item setAlpha() (serge.visual.Text method), \hyperpage{100}
+  \item setAngle() (serge.actor.Actor method), \hyperpage{85}
+  \item setAngle() (serge.actor.MountableActor method), \hyperpage{87}
+  \item setAngle() (serge.actor.PhysicallyMountableActor method), \hyperpage{87}
+  \item setAngle() (serge.blocks.visualblocks.Circle method), \hyperpage{71}
+  \item setAngle() (serge.visual.Drawing method), \hyperpage{98}
+  \item setAngle() (serge.visual.Sprite method), \hyperpage{99}
+  \item setAngle() (serge.visual.SurfaceDrawing method), \hyperpage{98}
+  \item setAngle() (serge.visual.Text method), \hyperpage{100}
+  \item setBackgroundColour() (serge.blocks.layout.Container method), \hyperpage{64}
+  \item setBackgroundSprite() (serge.blocks.layout.Container method), \hyperpage{64}
+  \item setCallback() (serge.blocks.conversation.ConversationManager method), \hyperpage{59}
+  \item setCallbacks() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item setCamera() (serge.render.Renderer method), \hyperpage{92}
+  \item setCell() (serge.visual.Sprite method), \hyperpage{99}
+  \item setCells() (serge.visual.Sprite method), \hyperpage{99}
+  \item setColour() (serge.visual.Text method), \hyperpage{100}
+  \item setCurrentWorld() (serge.engine.Engine method), \hyperpage{80}
+  \item setCurrentWorldByName() (serge.engine.Engine method), \hyperpage{80}
+  \item setDropCallbacks() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item setEngine() (serge.world.World method), \hyperpage{90}
+  \item setFontSize() (serge.visual.Text method), \hyperpage{100}
+  \item setGeometry() (serge.physical.PhysicalConditions method), \hyperpage{111}
+  \item setGlobalForce() (serge.world.World method), \hyperpage{90}
+  \item setGlobalForce() (serge.zone.Zone method), \hyperpage{83}
+  \item setGrid() (serge.blocks.layout.BaseGrid method), \hyperpage{63}
+  \item setHorizontalFlip() (serge.visual.Drawing method), \hyperpage{98}
+  \item setImage() (serge.visual.Sprite method), \hyperpage{99}
+  \item setJustify() (serge.visual.Text method), \hyperpage{101}
+  \item setLayerName() (serge.actor.Actor method), \hyperpage{85}
+  \item setLayerName() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+  \item setLayerName() (serge.blocks.layout.Container method), \hyperpage{64}
+  \item setOff() (serge.blocks.visualblocks.TextToggle method), \hyperpage{73}
+  \item setOn() (serge.blocks.visualblocks.TextToggle method), \hyperpage{73}
+  \item setOrigin() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item setPath() (serge.registry.GeneralStore method), \hyperpage{123}
+  \item setPhysical() (serge.actor.Actor method), \hyperpage{85}
+  \item setPhysicsStepsize() (serge.world.World method), \hyperpage{90}
+  \item setPhysicsStepsize() (serge.zone.Zone method), \hyperpage{83}
+  \item setPlaylist() (serge.sound.MusicStore method), \hyperpage{105}
+  \item setProperty() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item setRepeat() (serge.blocks.actors.RepeatedVisualActor method), \hyperpage{53}
+  \item setScale() (serge.visual.Drawing method), \hyperpage{98}
+  \item setSize() (serge.visual.Drawing method), \hyperpage{98}
+  \item setSize() (serge.visual.Sprite method), \hyperpage{99}
+  \item setSize() (serge.visual.SurfaceDrawing method), \hyperpage{98}
+  \item setSpatial() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item setSpatialCentered() (serge.geometry.Rectangle method), \hyperpage{116}
+  \item setSpriteName() (serge.actor.Actor method), \hyperpage{85}
+  \item setState() (serge.input.KeyState method), \hyperpage{108}
+  \item setState() (serge.input.MouseState method), \hyperpage{109}
+  \item setStatic() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item setSurface() (serge.render.RenderingLayer method), \hyperpage{93}
+  \item setSurface() (serge.visual.SurfaceDrawing method), \hyperpage{98}
+  \item setTarget() (serge.camera.Camera method), \hyperpage{95}
+  \item setText() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+  \item setText() (serge.blocks.visualblocks.SpriteText method), \hyperpage{72}
+  \item setText() (serge.visual.Text method), \hyperpage{101}
+  \item setValue() (serge.blocks.actors.FormattedText method), \hyperpage{52}
+  \item setVerticalFlip() (serge.visual.Drawing method), \hyperpage{98}
+  \item setVolume() (serge.sound.MusicStore method), \hyperpage{105}
+  \item setZoom() (serge.actor.Actor method), \hyperpage{85}
+  \item setZoom() (serge.camera.Camera method), \hyperpage{95}
+  \item setZoom() (serge.world.World method), \hyperpage{90}
+  \item Shadow (class in serge.blocks.visualeffects), \hyperpage{73}
+  \item ShadowLayer (class in serge.blocks.visualeffects), \hyperpage{73}
+  \item SimpleRect (class in serge.geometry), \hyperpage{117}
+  \item simplevecs (module), \hyperpage{117}
+  \item SingletonStore (class in serge.blocks.singletons), \hyperpage{66}
+  \item SkippableQueue() (in module serge.blocks.worker), \hyperpage{74}
+  \item sleepActor() (serge.zone.Zone method), \hyperpage{83}
+  \item sleepPhysicsForActors() (serge.world.World method), \hyperpage{90}
+  \item SnapshotOnKey (class in serge.blocks.behaviours), \hyperpage{57}
+  \item sound (module), \hyperpage{103}
+  \item SoundItem (class in serge.sound), \hyperpage{104}
+  \item SpatialObject (class in serge.geometry), \hyperpage{115}
+  \item SpringTowardsPoint (class in serge.blocks.behaviours), \hyperpage{58}
+  \item Sprite (class in serge.visual), \hyperpage{99}
+  \item SpriteText (class in serge.blocks.visualblocks), \hyperpage{72}
+  \item stop() (serge.blocks.utils.RecordDesktop method), \hyperpage{70}
+  \item stop() (serge.engine.Engine method), \hyperpage{81}
+  \item stop() (serge.sound.MusicItem method), \hyperpage{105}
+  \item stop() (serge.sound.SoundItem method), \hyperpage{104}
+  \item Store (class in serge.visual), \hyperpage{100}
+  \item StringText (class in serge.blocks.actors), \hyperpage{53}
+  \item SurfaceDrawing (class in serge.visual), \hyperpage{98}
+  \item syncPhysics() (serge.actor.Actor method), \hyperpage{85}
+
+  \indexspace
+  \bigletter T
+  \item Text (class in serge.visual), \hyperpage{100}
+  \item text (serge.blocks.visualblocks.SpriteText attribute), \hyperpage{72}
+  \item TextEntryWidget (class in serge.blocks.actors), \hyperpage{54}
+  \item TextToggle (class in serge.blocks.visualblocks), \hyperpage{72}
+  \item ThemeNotFound, \hyperpage{67}
+  \item Tiled (class in serge.blocks.tiled), \hyperpage{69}
+  \item TileMap (class in serge.blocks.tiled), \hyperpage{68}
+  \item TileObject (class in serge.blocks.tiled), \hyperpage{69}
+  \item TimedCallback (class in serge.blocks.behaviours), \hyperpage{58}
+  \item TimedOneshotCallback (class in serge.blocks.behaviours), \hyperpage{58}
+  \item toFile() (serge.serialize.Serializable method), \hyperpage{122}
+  \item Toggle (class in serge.blocks.visualblocks), \hyperpage{73}
+  \item toggle() (serge.blocks.visualblocks.TextToggle method), \hyperpage{73}
+  \item toggle() (serge.sound.AudioRegistry method), \hyperpage{104}
+  \item ToggledMenu (class in serge.blocks.actors), \hyperpage{54}
+  \item toggleSound() (serge.blocks.actors.MuteButton method), \hyperpage{53}
+  \item TwoOptions (class in serge.blocks.behaviours), \hyperpage{58}
+
+  \indexspace
+  \bigletter U
+  \item unit() (serge.simplevecs.Vec2d static method), \hyperpage{118}
+  \item UnknownActor, \hyperpage{65}
+  \item unlinkEvent() (serge.common.EventAware method), \hyperpage{122}
+  \item unmarshallSurface() (in module serge.blocks.worker), \hyperpage{74}
+  \item unmountActor() (serge.actor.PhysicallyMountableActor method), \hyperpage{88}
+  \item unpause() (serge.blocks.effects.Effect method), \hyperpage{62}
+  \item unpause() (serge.sound.AudioRegistry method), \hyperpage{104}
+  \item unpause() (serge.sound.MusicItem method), \hyperpage{105}
+  \item unpause() (serge.sound.MusicStore method), \hyperpage{105}
+  \item unpause() (serge.sound.SoundItem method), \hyperpage{104}
+  \item update() (serge.camera.Camera method), \hyperpage{95}
+  \item update() (serge.input.Keyboard method), \hyperpage{108}
+  \item update() (serge.input.Mouse method), \hyperpage{109}
+  \item update() (serge.sound.AudioRegistry method), \hyperpage{104}
+  \item update() (serge.sound.MusicStore method), \hyperpage{105}
+  \item updateAchievement() (serge.blocks.achievements.AchievementStatus method), \hyperpage{51}
+  \item updateAchievements() (serge.blocks.achievements.AchievementsGrid method), \hyperpage{51}
+  \item updateActor() (serge.actor.Actor method), \hyperpage{85}
+  \item updateActor() (serge.blocks.actors.AnimateThenDieActor method), \hyperpage{52}
+  \item updateActor() (serge.blocks.actors.FocusManager method), \hyperpage{52}
+  \item updateActor() (serge.blocks.actors.FPSDisplay method), \hyperpage{52}
+  \item updateActor() (serge.blocks.actors.TextEntryWidget method), \hyperpage{54}
+  \item updateActor() (serge.blocks.behaviours.BehaviourManager method), \hyperpage{55}
+  \item updateActor() (serge.blocks.dragndrop.DragController method), \hyperpage{60}
+  \item updateActor() (serge.blocks.effects.MethodCallFade method), \hyperpage{62}
+  \item updateActor() (serge.blocks.effects.PanActor method), \hyperpage{62}
+  \item updateActor() (serge.blocks.effects.Pause method), \hyperpage{62}
+  \item updateFrom() (serge.physical.PhysicalConditions method), \hyperpage{111}
+  \item updateFromString() (serge.blocks.themes.Manager method), \hyperpage{67}
+  \item updatePhysics() (serge.zone.Zone method), \hyperpage{84}
+  \item updateText() (serge.blocks.actors.FormattedText method), \hyperpage{52}
+  \item updateText() (serge.blocks.actors.NumericText method), \hyperpage{53}
+  \item updateText() (serge.blocks.actors.StringText method), \hyperpage{53}
+  \item updateWorld() (serge.engine.Engine method), \hyperpage{81}
+  \item updateWorld() (serge.world.World method), \hyperpage{90}
+  \item updateZone() (serge.zone.Zone method), \hyperpage{84}
+
+  \indexspace
+  \bigletter V
+  \item value (serge.blocks.actors.NumericText attribute), \hyperpage{53}
+  \item value (serge.blocks.actors.StringText attribute), \hyperpage{53}
+  \item value (serge.blocks.visualblocks.ProgressBar attribute), \hyperpage{72}
+  \item Vec2d (class in serge.simplevecs), \hyperpage{117}
+  \item VerticalBar (class in serge.blocks.layout), \hyperpage{65}
+  \item VirtualLayer (class in serge.render), \hyperpage{94}
+  \item visual (module), \hyperpage{97}
+
+  \indexspace
+  \bigletter W
+  \item wakeActor() (serge.zone.Zone method), \hyperpage{84}
+  \item wakePhysicsForActors() (serge.world.World method), \hyperpage{90}
+  \item World (class in serge.world), \hyperpage{88}
+  \item world (module), \hyperpage{88}
+  \item worldCallback() (in module serge.blocks.utils), \hyperpage{71}
+  \item worldChange() (serge.blocks.effects.ColourPhaser method), \hyperpage{61}
+  \item wouldContain() (serge.zone.Zone method), \hyperpage{84}
+
+  \indexspace
+  \bigletter Z
+  \item zero() (serge.simplevecs.Vec2d static method), \hyperpage{118}
+  \item Zone (class in serge.zone), \hyperpage{83}
+  \item zone (module), \hyperpage{83}
+
+\end{theindex}

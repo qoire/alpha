@@ -1,0 +1,107 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Tutorials}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Tutorial 1: Snake Part 1}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Introduction}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Game}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Engine Overview}{4}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Setting Things Up Quickly}{4}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Adding The Snake's Head}{5}{subsection.1.1.5}
+\contentsline {subsection}{\numberline {1.1.6}Moving The Head}{6}{subsection.1.1.6}
+\contentsline {subsection}{\numberline {1.1.7}Interacting With The Snake}{7}{subsection.1.1.7}
+\contentsline {subsection}{\numberline {1.1.8}Leaving A Trail}{9}{subsection.1.1.8}
+\contentsline {subsection}{\numberline {1.1.9}Hitting The Body}{11}{subsection.1.1.9}
+\contentsline {subsection}{\numberline {1.1.10}Restarting The Game}{16}{subsection.1.1.10}
+\contentsline {subsection}{\numberline {1.1.11}Minor Polishing}{19}{subsection.1.1.11}
+\contentsline {section}{\numberline {1.2}Tutorial 2: Snake Part 2}{22}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Adding Sprites}{23}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Adding Sound}{27}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Adding Fonts}{30}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Additional Gameplay elements}{34}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Events}{39}{subsection.1.2.5}
+\contentsline {subsection}{\numberline {1.2.6}Animation}{43}{subsection.1.2.6}
+\contentsline {subsection}{\numberline {1.2.7}Conclusion}{47}{subsection.1.2.7}
+\contentsline {subsection}{\numberline {1.2.8}Resources}{48}{subsection.1.2.8}
+\contentsline {subsection}{\numberline {1.2.9}Credits}{48}{subsection.1.2.9}
+\contentsline {chapter}{\numberline {2}Useful Building Blocks}{49}{chapter.2}
+\contentsline {section}{\numberline {2.1}Building Blocks}{49}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}\texttt {achievements} Module}{49}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}\texttt {actors} Module}{51}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}\texttt {behaviours} Module}{54}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}\texttt {conversation} Module}{58}{subsection.2.1.4}
+\contentsline {subsection}{\numberline {2.1.5}\texttt {directions} Module}{59}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}\texttt {dragndrop} Module}{60}{subsection.2.1.6}
+\contentsline {subsection}{\numberline {2.1.7}\texttt {effects} Module}{61}{subsection.2.1.7}
+\contentsline {subsection}{\numberline {2.1.8}\texttt {fractals} Module}{62}{subsection.2.1.8}
+\contentsline {subsection}{\numberline {2.1.9}\texttt {layout} Module}{63}{subsection.2.1.9}
+\contentsline {subsection}{\numberline {2.1.10}\texttt {scores} Module}{65}{subsection.2.1.10}
+\contentsline {subsection}{\numberline {2.1.11}\texttt {singletons} Module}{66}{subsection.2.1.11}
+\contentsline {subsection}{\numberline {2.1.12}\texttt {themes} Module}{66}{subsection.2.1.12}
+\contentsline {subsection}{\numberline {2.1.13}\texttt {tiled} Module}{68}{subsection.2.1.13}
+\contentsline {subsection}{\numberline {2.1.14}\texttt {utils} Module}{69}{subsection.2.1.14}
+\contentsline {subsection}{\numberline {2.1.15}\texttt {visualblocks} Module}{71}{subsection.2.1.15}
+\contentsline {subsection}{\numberline {2.1.16}\texttt {visualeffects} Module}{73}{subsection.2.1.16}
+\contentsline {subsection}{\numberline {2.1.17}\texttt {worker} Module}{74}{subsection.2.1.17}
+\contentsline {chapter}{\numberline {3}Engine Overview}{75}{chapter.3}
+\contentsline {chapter}{\numberline {4}Engine}{79}{chapter.4}
+\contentsline {section}{\numberline {4.1}Engine}{79}{section.4.1}
+\contentsline {section}{\numberline {4.2}EngineStats}{81}{section.4.2}
+\contentsline {chapter}{\numberline {5}Worlds}{83}{chapter.5}
+\contentsline {section}{\numberline {5.1}Zones}{83}{section.5.1}
+\contentsline {section}{\numberline {5.2}Actors}{84}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Actor}{84}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}CompositeActor}{86}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}MountableActor}{87}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}PhysicallyMountableActor}{87}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}ActorCollection}{88}{subsection.5.2.5}
+\contentsline {section}{\numberline {5.3}World}{88}{section.5.3}
+\contentsline {chapter}{\numberline {6}Renderering}{91}{chapter.6}
+\contentsline {section}{\numberline {6.1}Renderer}{91}{section.6.1}
+\contentsline {section}{\numberline {6.2}Layers}{93}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}RenderingLayer}{93}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Layer}{94}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}VirtualLayer}{94}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Cameras}{95}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Camera}{95}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}NullCamera}{96}{subsection.6.3.2}
+\contentsline {chapter}{\numberline {7}Visual}{97}{chapter.7}
+\contentsline {section}{\numberline {7.1}Sprites}{97}{section.7.1}
+\contentsline {section}{\numberline {7.2}Fonts}{97}{section.7.2}
+\contentsline {section}{\numberline {7.3}Drawing}{97}{section.7.3}
+\contentsline {section}{\numberline {7.4}SurfaceDrawing}{98}{section.7.4}
+\contentsline {section}{\numberline {7.5}Sprite}{99}{section.7.5}
+\contentsline {section}{\numberline {7.6}FontStore}{99}{section.7.6}
+\contentsline {section}{\numberline {7.7}Store}{100}{section.7.7}
+\contentsline {section}{\numberline {7.8}Text}{100}{section.7.8}
+\contentsline {chapter}{\numberline {8}Sound}{103}{chapter.8}
+\contentsline {section}{\numberline {8.1}Sounds}{103}{section.8.1}
+\contentsline {section}{\numberline {8.2}Music}{103}{section.8.2}
+\contentsline {section}{\numberline {8.3}AudioRegistry}{103}{section.8.3}
+\contentsline {section}{\numberline {8.4}SoundItem}{104}{section.8.4}
+\contentsline {section}{\numberline {8.5}MusicStore}{104}{section.8.5}
+\contentsline {section}{\numberline {8.6}MusicItem}{105}{section.8.6}
+\contentsline {chapter}{\numberline {9}Input}{107}{chapter.9}
+\contentsline {section}{\numberline {9.1}Constants}{107}{section.9.1}
+\contentsline {section}{\numberline {9.2}Keyboard}{107}{section.9.2}
+\contentsline {section}{\numberline {9.3}Mouse}{108}{section.9.3}
+\contentsline {chapter}{\numberline {10}Physical}{111}{chapter.10}
+\contentsline {section}{\numberline {10.1}PhysicalConditions}{111}{section.10.1}
+\contentsline {section}{\numberline {10.2}PhysicalBody}{112}{section.10.2}
+\contentsline {chapter}{\numberline {11}Events}{113}{chapter.11}
+\contentsline {section}{\numberline {11.1}Broadcaster}{113}{section.11.1}
+\contentsline {section}{\numberline {11.2}getEventBroadcaster}{113}{section.11.2}
+\contentsline {section}{\numberline {11.3}Events}{113}{section.11.3}
+\contentsline {chapter}{\numberline {12}Geometry}{115}{chapter.12}
+\contentsline {section}{\numberline {12.1}SpatialObject}{115}{section.12.1}
+\contentsline {section}{\numberline {12.2}Rectangle}{115}{section.12.2}
+\contentsline {section}{\numberline {12.3}Point}{116}{section.12.3}
+\contentsline {section}{\numberline {12.4}SimpleRect}{117}{section.12.4}
+\contentsline {section}{\numberline {12.5}Vec2d}{117}{section.12.5}
+\contentsline {chapter}{\numberline {13}Common}{121}{chapter.13}
+\contentsline {section}{\numberline {13.1}Loggable}{121}{section.13.1}
+\contentsline {section}{\numberline {13.2}getLogger}{121}{section.13.2}
+\contentsline {section}{\numberline {13.3}EventAware}{121}{section.13.3}
+\contentsline {section}{\numberline {13.4}Serializable}{122}{section.13.4}
+\contentsline {section}{\numberline {13.5}GeneralStore}{122}{section.13.5}
+\contentsline {chapter}{\numberline {14}Indices and tables}{125}{chapter.14}
+\contentsline {chapter}{Python Module Index}{127}{section*.774}
+\contentsline {chapter}{Index}{129}{section*.775}

@@ -1,0 +1,789 @@
+\indexentry{serge.blocks.achievements (module)|hyperpage}{49}
+\indexentry{Achievement (class in serge.blocks.achievements)|hyperpage}{50}
+\indexentry{index (serge.blocks.achievements.Achievement attribute)|hyperpage}{50}
+\indexentry{init() (serge.blocks.achievements.Achievement method)|hyperpage}{50}
+\indexentry{isMet() (serge.blocks.achievements.Achievement method)|hyperpage}{50}
+\indexentry{makeReport() (serge.blocks.achievements.Achievement method)|hyperpage}{50}
+\indexentry{my\_properties (serge.blocks.achievements.Achievement attribute)|hyperpage}{50}
+\indexentry{AchievementBanner (class in serge.blocks.achievements)|hyperpage}{50}
+\indexentry{addedToWorld() (serge.blocks.achievements.AchievementBanner method)|hyperpage}{50}
+\indexentry{hideMe() (serge.blocks.achievements.AchievementBanner method)|hyperpage}{50}
+\indexentry{meetAchievement() (serge.blocks.achievements.AchievementBanner method)|hyperpage}{50}
+\indexentry{AchievementManager (class in serge.blocks.achievements)|hyperpage}{50}
+\indexentry{getAchievements() (serge.blocks.achievements.AchievementManager method)|hyperpage}{50}
+\indexentry{init() (serge.blocks.achievements.AchievementManager method)|hyperpage}{50}
+\indexentry{initialiseFromFile() (serge.blocks.achievements.AchievementManager method)|hyperpage}{50}
+\indexentry{log (serge.blocks.achievements.AchievementManager attribute)|hyperpage}{50}
+\indexentry{makeReport() (serge.blocks.achievements.AchievementManager method)|hyperpage}{50}
+\indexentry{my\_properties (serge.blocks.achievements.AchievementManager attribute)|hyperpage}{50}
+\indexentry{registerAchievement() (serge.blocks.achievements.AchievementManager method)|hyperpage}{50}
+\indexentry{safeRegisterAchievement() (serge.blocks.achievements.AchievementManager method)|hyperpage}{50}
+\indexentry{saveAchievements() (serge.blocks.achievements.AchievementManager method)|hyperpage}{50}
+\indexentry{AchievementStatus (class in serge.blocks.achievements)|hyperpage}{51}
+\indexentry{addedToWorld() (serge.blocks.achievements.AchievementStatus method)|hyperpage}{51}
+\indexentry{updateAchievement() (serge.blocks.achievements.AchievementStatus method)|hyperpage}{51}
+\indexentry{AchievementsGrid (class in serge.blocks.achievements)|hyperpage}{51}
+\indexentry{addedToWorld() (serge.blocks.achievements.AchievementsGrid method)|hyperpage}{51}
+\indexentry{updateAchievements() (serge.blocks.achievements.AchievementsGrid method)|hyperpage}{51}
+\indexentry{BadCondition|hyperpage}{51}
+\indexentry{BadReport|hyperpage}{51}
+\indexentry{BadTestType|hyperpage}{51}
+\indexentry{DuplicateAchievement|hyperpage}{51}
+\indexentry{addAchievementsBannerToWorld() (in module serge.blocks.achievements)|hyperpage}{51}
+\indexentry{addAchievementsWorld() (in module serge.blocks.achievements)|hyperpage}{51}
+\indexentry{getManager() (in module serge.blocks.achievements)|hyperpage}{51}
+\indexentry{initManager() (in module serge.blocks.achievements)|hyperpage}{51}
+\indexentry{serge.blocks.actors (module)|hyperpage}{51}
+\indexentry{AnimateThenDieActor (class in serge.blocks.actors)|hyperpage}{51}
+\indexentry{addedToWorld() (serge.blocks.actors.AnimateThenDieActor method)|hyperpage}{52}
+\indexentry{updateActor() (serge.blocks.actors.AnimateThenDieActor method)|hyperpage}{52}
+\indexentry{FPSDisplay (class in serge.blocks.actors)|hyperpage}{52}
+\indexentry{addedToWorld() (serge.blocks.actors.FPSDisplay method)|hyperpage}{52}
+\indexentry{updateActor() (serge.blocks.actors.FPSDisplay method)|hyperpage}{52}
+\indexentry{FocusManager (class in serge.blocks.actors)|hyperpage}{52}
+\indexentry{actorEntry() (serge.blocks.actors.FocusManager method)|hyperpage}{52}
+\indexentry{actorSelected() (serge.blocks.actors.FocusManager method)|hyperpage}{52}
+\indexentry{addChild() (serge.blocks.actors.FocusManager method)|hyperpage}{52}
+\indexentry{addedToWorld() (serge.blocks.actors.FocusManager method)|hyperpage}{52}
+\indexentry{updateActor() (serge.blocks.actors.FocusManager method)|hyperpage}{52}
+\indexentry{FormattedText (class in serge.blocks.actors)|hyperpage}{52}
+\indexentry{getValue() (serge.blocks.actors.FormattedText method)|hyperpage}{52}
+\indexentry{setValue() (serge.blocks.actors.FormattedText method)|hyperpage}{52}
+\indexentry{updateText() (serge.blocks.actors.FormattedText method)|hyperpage}{52}
+\indexentry{InvalidMenu|hyperpage}{52}
+\indexentry{InvalidMenuItem|hyperpage}{52}
+\indexentry{MuteButton (class in serge.blocks.actors)|hyperpage}{53}
+\indexentry{toggleSound() (serge.blocks.actors.MuteButton method)|hyperpage}{53}
+\indexentry{NumericText (class in serge.blocks.actors)|hyperpage}{53}
+\indexentry{updateText() (serge.blocks.actors.NumericText method)|hyperpage}{53}
+\indexentry{value (serge.blocks.actors.NumericText attribute)|hyperpage}{53}
+\indexentry{RepeatedVisualActor (class in serge.blocks.actors)|hyperpage}{53}
+\indexentry{getRepeat() (serge.blocks.actors.RepeatedVisualActor method)|hyperpage}{53}
+\indexentry{increaseRepeat() (serge.blocks.actors.RepeatedVisualActor method)|hyperpage}{53}
+\indexentry{reduceRepeat() (serge.blocks.actors.RepeatedVisualActor method)|hyperpage}{53}
+\indexentry{renderTo() (serge.blocks.actors.RepeatedVisualActor method)|hyperpage}{53}
+\indexentry{resetRepeat() (serge.blocks.actors.RepeatedVisualActor method)|hyperpage}{53}
+\indexentry{setRepeat() (serge.blocks.actors.RepeatedVisualActor method)|hyperpage}{53}
+\indexentry{ScreenActor (class in serge.blocks.actors)|hyperpage}{53}
+\indexentry{addedToWorld() (serge.blocks.actors.ScreenActor method)|hyperpage}{53}
+\indexentry{StringText (class in serge.blocks.actors)|hyperpage}{53}
+\indexentry{updateText() (serge.blocks.actors.StringText method)|hyperpage}{53}
+\indexentry{value (serge.blocks.actors.StringText attribute)|hyperpage}{53}
+\indexentry{TextEntryWidget (class in serge.blocks.actors)|hyperpage}{54}
+\indexentry{addedToWorld() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{getFocus() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{getText() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{hasFocus() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{loseFocus() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{setLayerName() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{setText() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{updateActor() (serge.blocks.actors.TextEntryWidget method)|hyperpage}{54}
+\indexentry{ToggledMenu (class in serge.blocks.actors)|hyperpage}{54}
+\indexentry{getSelection() (serge.blocks.actors.ToggledMenu method)|hyperpage}{54}
+\indexentry{getSelectionIndex() (serge.blocks.actors.ToggledMenu method)|hyperpage}{54}
+\indexentry{selectItem() (serge.blocks.actors.ToggledMenu method)|hyperpage}{54}
+\indexentry{selectItemIndex() (serge.blocks.actors.ToggledMenu method)|hyperpage}{54}
+\indexentry{serge.blocks.behaviours (module)|hyperpage}{54}
+\indexentry{AvoidActor (class in serge.blocks.behaviours)|hyperpage}{54}
+\indexentry{AvoidActorsWithTag (class in serge.blocks.behaviours)|hyperpage}{55}
+\indexentry{Behaviour (class in serge.blocks.behaviours)|hyperpage}{55}
+\indexentry{BehaviourAlreadyPaused|hyperpage}{55}
+\indexentry{BehaviourManager (class in serge.blocks.behaviours)|hyperpage}{55}
+\indexentry{assignBehaviour() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{hasBehaviour() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{pauseBehaviours() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{removeBehaviour() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{removeBehaviourByName() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{removeBehaviours() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{removeBehavioursByName() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{restartBehaviours() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{updateActor() (serge.blocks.behaviours.BehaviourManager method)|hyperpage}{55}
+\indexentry{BehaviourNotPaused|hyperpage}{55}
+\indexentry{BehaviourRecord (class in serge.blocks.behaviours)|hyperpage}{55}
+\indexentry{involvesActor() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{55}
+\indexentry{isComplete() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{55}
+\indexentry{isRunning() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{56}
+\indexentry{markComplete() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{56}
+\indexentry{matches() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{56}
+\indexentry{matchesName() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{56}
+\indexentry{pause() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{56}
+\indexentry{performBehaviour() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{56}
+\indexentry{restart() (serge.blocks.behaviours.BehaviourRecord method)|hyperpage}{56}
+\indexentry{Blink (class in serge.blocks.behaviours)|hyperpage}{56}
+\indexentry{ConstantVelocity (class in serge.blocks.behaviours)|hyperpage}{56}
+\indexentry{Delay (class in serge.blocks.behaviours)|hyperpage}{56}
+\indexentry{DuplicateBehaviour|hyperpage}{56}
+\indexentry{FlashFor (class in serge.blocks.behaviours)|hyperpage}{56}
+\indexentry{KeyboardNSEW (class in serge.blocks.behaviours)|hyperpage}{56}
+\indexentry{KeyboardNSEWToVectorCallback (class in serge.blocks.behaviours)|hyperpage}{56}
+\indexentry{KeyboardQuit (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{MissingBehaviour|hyperpage}{57}
+\indexentry{MoveTowardsActor (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{MoveTowardsPoint (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{MoveWithMouse (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{OneShotSequence (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{Optional (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{ParallaxMotion (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{RemoveWhenOutOfRange (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{SnapshotOnKey (class in serge.blocks.behaviours)|hyperpage}{57}
+\indexentry{SpringTowardsPoint (class in serge.blocks.behaviours)|hyperpage}{58}
+\indexentry{TimedCallback (class in serge.blocks.behaviours)|hyperpage}{58}
+\indexentry{TimedOneshotCallback (class in serge.blocks.behaviours)|hyperpage}{58}
+\indexentry{TwoOptions (class in serge.blocks.behaviours)|hyperpage}{58}
+\indexentry{serge.blocks.conversation (module)|hyperpage}{58}
+\indexentry{BadOption|hyperpage}{58}
+\indexentry{ConversationManager (class in serge.blocks.conversation)|hyperpage}{58}
+\indexentry{chooseOption() (serge.blocks.conversation.ConversationManager method)|hyperpage}{58}
+\indexentry{findNode() (serge.blocks.conversation.ConversationManager method)|hyperpage}{58}
+\indexentry{findNodeByID() (serge.blocks.conversation.ConversationManager method)|hyperpage}{58}
+\indexentry{fromXMLFile() (serge.blocks.conversation.ConversationManager class method)|hyperpage}{58}
+\indexentry{getChild() (serge.blocks.conversation.ConversationManager method)|hyperpage}{58}
+\indexentry{getChildren() (serge.blocks.conversation.ConversationManager method)|hyperpage}{58}
+\indexentry{getLink() (serge.blocks.conversation.ConversationManager method)|hyperpage}{58}
+\indexentry{getNewManager() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{getNodeVariables() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{getParent() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{getText() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{getVariable() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{moveNext() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{parseRichText() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{processNodeVariables() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{restartConversation() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{setCallback() (serge.blocks.conversation.ConversationManager method)|hyperpage}{59}
+\indexentry{InvalidFile|hyperpage}{59}
+\indexentry{NodeNotFound|hyperpage}{59}
+\indexentry{serge.blocks.directions (module)|hyperpage}{59}
+\indexentry{getAngleFromCardinal() (in module serge.blocks.directions)|hyperpage}{59}
+\indexentry{getCardinalFromAngle() (in module serge.blocks.directions)|hyperpage}{59}
+\indexentry{getCardinalFromVector() (in module serge.blocks.directions)|hyperpage}{59}
+\indexentry{getCardinals() (in module serge.blocks.directions)|hyperpage}{59}
+\indexentry{getOppositeCardinal() (in module serge.blocks.directions)|hyperpage}{59}
+\indexentry{getOppositeVector() (in module serge.blocks.directions)|hyperpage}{59}
+\indexentry{getVectorFromCardinal() (in module serge.blocks.directions)|hyperpage}{60}
+\indexentry{serge.blocks.dragndrop (module)|hyperpage}{60}
+\indexentry{AlreadyATarget|hyperpage}{60}
+\indexentry{DragController (class in serge.blocks.dragndrop)|hyperpage}{60}
+\indexentry{addActor() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{addDropTarget() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{checkForDrops() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{clickedActor() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{getDraggedActor() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{isDragging() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{mouseDown() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{removeActor() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{removeDropTarget() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{setCallbacks() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{setDropCallbacks() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{updateActor() (serge.blocks.dragndrop.DragController method)|hyperpage}{60}
+\indexentry{DropNotAllowed|hyperpage}{60}
+\indexentry{DuplicateActor|hyperpage}{61}
+\indexentry{NotATarget|hyperpage}{61}
+\indexentry{NotDragging|hyperpage}{61}
+\indexentry{serge.blocks.effects (module)|hyperpage}{61}
+\indexentry{AttributeFade (class in serge.blocks.effects)|hyperpage}{61}
+\indexentry{ColourPhaser (class in serge.blocks.effects)|hyperpage}{61}
+\indexentry{addedToWorld() (serge.blocks.effects.ColourPhaser method)|hyperpage}{61}
+\indexentry{postRender() (serge.blocks.effects.ColourPhaser method)|hyperpage}{61}
+\indexentry{worldChange() (serge.blocks.effects.ColourPhaser method)|hyperpage}{61}
+\indexentry{Effect (class in serge.blocks.effects)|hyperpage}{61}
+\indexentry{finish() (serge.blocks.effects.Effect method)|hyperpage}{61}
+\indexentry{pause() (serge.blocks.effects.Effect method)|hyperpage}{61}
+\indexentry{restart() (serge.blocks.effects.Effect method)|hyperpage}{61}
+\indexentry{unpause() (serge.blocks.effects.Effect method)|hyperpage}{62}
+\indexentry{InvalidMotion|hyperpage}{62}
+\indexentry{MethodCallFade (class in serge.blocks.effects)|hyperpage}{62}
+\indexentry{updateActor() (serge.blocks.effects.MethodCallFade method)|hyperpage}{62}
+\indexentry{PanActor (class in serge.blocks.effects)|hyperpage}{62}
+\indexentry{restart() (serge.blocks.effects.PanActor method)|hyperpage}{62}
+\indexentry{updateActor() (serge.blocks.effects.PanActor method)|hyperpage}{62}
+\indexentry{Pause (class in serge.blocks.effects)|hyperpage}{62}
+\indexentry{updateActor() (serge.blocks.effects.Pause method)|hyperpage}{62}
+\indexentry{serge.blocks.fractals (module)|hyperpage}{62}
+\indexentry{fractalLine() (in module serge.blocks.fractals)|hyperpage}{62}
+\indexentry{fractalShape() (in module serge.blocks.fractals)|hyperpage}{62}
+\indexentry{serge.blocks.layout (module)|hyperpage}{63}
+\indexentry{AlreadyInCell|hyperpage}{63}
+\indexentry{Bar (class in serge.blocks.layout)|hyperpage}{63}
+\indexentry{addActor() (serge.blocks.layout.Bar method)|hyperpage}{63}
+\indexentry{addBlanks() (serge.blocks.layout.Bar method)|hyperpage}{63}
+\indexentry{BaseGrid (class in serge.blocks.layout)|hyperpage}{63}
+\indexentry{clearGrid() (serge.blocks.layout.BaseGrid method)|hyperpage}{63}
+\indexentry{getCoords() (serge.blocks.layout.BaseGrid method)|hyperpage}{63}
+\indexentry{getLocation() (serge.blocks.layout.BaseGrid method)|hyperpage}{63}
+\indexentry{removeActor() (serge.blocks.layout.BaseGrid method)|hyperpage}{63}
+\indexentry{removeChildren() (serge.blocks.layout.BaseGrid method)|hyperpage}{63}
+\indexentry{setGrid() (serge.blocks.layout.BaseGrid method)|hyperpage}{63}
+\indexentry{CellEmpty|hyperpage}{63}
+\indexentry{CellOccupied|hyperpage}{63}
+\indexentry{Container (class in serge.blocks.layout)|hyperpage}{63}
+\indexentry{moveTo() (serge.blocks.layout.Container method)|hyperpage}{63}
+\indexentry{reflowChildren() (serge.blocks.layout.Container method)|hyperpage}{64}
+\indexentry{setBackgroundColour() (serge.blocks.layout.Container method)|hyperpage}{64}
+\indexentry{setBackgroundSprite() (serge.blocks.layout.Container method)|hyperpage}{64}
+\indexentry{setLayerName() (serge.blocks.layout.Container method)|hyperpage}{64}
+\indexentry{Grid (class in serge.blocks.layout)|hyperpage}{64}
+\indexentry{addActor() (serge.blocks.layout.Grid method)|hyperpage}{64}
+\indexentry{autoAddActor() (serge.blocks.layout.Grid method)|hyperpage}{64}
+\indexentry{findActorLocation() (serge.blocks.layout.Grid method)|hyperpage}{64}
+\indexentry{getActorAt() (serge.blocks.layout.Grid method)|hyperpage}{64}
+\indexentry{moveActor() (serge.blocks.layout.Grid method)|hyperpage}{64}
+\indexentry{HorizontalBar (class in serge.blocks.layout)|hyperpage}{64}
+\indexentry{getCoords() (serge.blocks.layout.HorizontalBar method)|hyperpage}{64}
+\indexentry{MultiGrid (class in serge.blocks.layout)|hyperpage}{64}
+\indexentry{addActor() (serge.blocks.layout.MultiGrid method)|hyperpage}{64}
+\indexentry{findActorLocation() (serge.blocks.layout.MultiGrid method)|hyperpage}{64}
+\indexentry{getActorsAt() (serge.blocks.layout.MultiGrid method)|hyperpage}{64}
+\indexentry{moveActor() (serge.blocks.layout.MultiGrid method)|hyperpage}{64}
+\indexentry{removeActor() (serge.blocks.layout.MultiGrid method)|hyperpage}{64}
+\indexentry{removeActors() (serge.blocks.layout.MultiGrid method)|hyperpage}{65}
+\indexentry{OutOfRange|hyperpage}{65}
+\indexentry{UnknownActor|hyperpage}{65}
+\indexentry{VerticalBar (class in serge.blocks.layout)|hyperpage}{65}
+\indexentry{serge.blocks.scores (module)|hyperpage}{65}
+\indexentry{BadCategory|hyperpage}{65}
+\indexentry{BadData|hyperpage}{65}
+\indexentry{Category (class in serge.blocks.scores)|hyperpage}{65}
+\indexentry{addScore() (serge.blocks.scores.Category method)|hyperpage}{65}
+\indexentry{resetCategory() (serge.blocks.scores.Category method)|hyperpage}{65}
+\indexentry{DuplicateCategory|hyperpage}{65}
+\indexentry{HighScoreTable (class in serge.blocks.scores)|hyperpage}{65}
+\indexentry{addCategory() (serge.blocks.scores.HighScoreTable method)|hyperpage}{65}
+\indexentry{addScore() (serge.blocks.scores.HighScoreTable method)|hyperpage}{65}
+\indexentry{getCategory() (serge.blocks.scores.HighScoreTable method)|hyperpage}{66}
+\indexentry{my\_properties (serge.blocks.scores.HighScoreTable attribute)|hyperpage}{66}
+\indexentry{resetCategory() (serge.blocks.scores.HighScoreTable method)|hyperpage}{66}
+\indexentry{resetTable() (serge.blocks.scores.HighScoreTable method)|hyperpage}{66}
+\indexentry{InvalidSort|hyperpage}{66}
+\indexentry{InvalidSortColumn|hyperpage}{66}
+\indexentry{serge.blocks.singletons (module)|hyperpage}{66}
+\indexentry{SingletonStore (class in serge.blocks.singletons)|hyperpage}{66}
+\indexentry{serge.blocks.themes (module)|hyperpage}{66}
+\indexentry{BadInheritance|hyperpage}{66}
+\indexentry{BadThemeDefinition|hyperpage}{66}
+\indexentry{BadThemeFile|hyperpage}{66}
+\indexentry{InvalidFormat|hyperpage}{66}
+\indexentry{Manager (class in serge.blocks.themes)|hyperpage}{66}
+\indexentry{getProperty() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{getPropertyWithDefault() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{getTheme() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{hasTheme() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{load() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{loadFrom() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{loadFromFile() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{selectTheme() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{setProperty() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{updateFromString() (serge.blocks.themes.Manager method)|hyperpage}{67}
+\indexentry{MissingDefault|hyperpage}{67}
+\indexentry{MissingSchema|hyperpage}{67}
+\indexentry{PropertyNotFound|hyperpage}{67}
+\indexentry{ThemeNotFound|hyperpage}{67}
+\indexentry{serge.blocks.tiled (module)|hyperpage}{68}
+\indexentry{BadLayer|hyperpage}{68}
+\indexentry{BadTiledFile|hyperpage}{68}
+\indexentry{Layer (class in serge.blocks.tiled)|hyperpage}{68}
+\indexentry{addObject() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{getLocationsWithTile() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{getLocationsWithoutTile() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{getObject() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{getObjects() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{getSize() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{getSpriteFor() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{iterCellLocations() (serge.blocks.tiled.Layer method)|hyperpage}{68}
+\indexentry{NotFound|hyperpage}{68}
+\indexentry{TileMap (class in serge.blocks.tiled)|hyperpage}{68}
+\indexentry{addLayer() (serge.blocks.tiled.TileMap method)|hyperpage}{68}
+\indexentry{addLayerTypes() (serge.blocks.tiled.TileMap class method)|hyperpage}{68}
+\indexentry{getLayer() (serge.blocks.tiled.TileMap method)|hyperpage}{68}
+\indexentry{getLayerByType() (serge.blocks.tiled.TileMap method)|hyperpage}{68}
+\indexentry{getLayers() (serge.blocks.tiled.TileMap method)|hyperpage}{68}
+\indexentry{getLayersByType() (serge.blocks.tiled.TileMap method)|hyperpage}{69}
+\indexentry{getLayersForTile() (serge.blocks.tiled.TileMap method)|hyperpage}{69}
+\indexentry{getPropertiesFrom() (serge.blocks.tiled.TileMap method)|hyperpage}{69}
+\indexentry{getPropertyBagArray() (serge.blocks.tiled.TileMap method)|hyperpage}{69}
+\indexentry{getSize() (serge.blocks.tiled.TileMap method)|hyperpage}{69}
+\indexentry{getSpriteName() (serge.blocks.tiled.TileMap method)|hyperpage}{69}
+\indexentry{getTypeFrom() (serge.blocks.tiled.TileMap method)|hyperpage}{69}
+\indexentry{resetLayerTypes() (serge.blocks.tiled.TileMap class method)|hyperpage}{69}
+\indexentry{TileObject (class in serge.blocks.tiled)|hyperpage}{69}
+\indexentry{Tiled (class in serge.blocks.tiled)|hyperpage}{69}
+\indexentry{getObjectLayers() (serge.blocks.tiled.Tiled method)|hyperpage}{69}
+\indexentry{layer\_types (serge.blocks.tiled.Tiled attribute)|hyperpage}{69}
+\indexentry{serge.blocks.utils (module)|hyperpage}{69}
+\indexentry{MovieRecorder (class in serge.blocks.utils)|hyperpage}{69}
+\indexentry{clearFrames() (serge.blocks.utils.MovieRecorder method)|hyperpage}{69}
+\indexentry{makeFrame() (serge.blocks.utils.MovieRecorder method)|hyperpage}{69}
+\indexentry{makeMovie() (serge.blocks.utils.MovieRecorder method)|hyperpage}{69}
+\indexentry{RecordDesktop (class in serge.blocks.utils)|hyperpage}{70}
+\indexentry{stop() (serge.blocks.utils.RecordDesktop method)|hyperpage}{70}
+\indexentry{addActorToWorld() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{addMuteButtonToWorlds() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{addSpriteActorToWorld() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{addTextItemsToWorld() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{addTextToWorld() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{addVisualActorToWorld() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{backToPreviousWorld() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{checkNetworkXVersion() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{checkPythonVersion() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{createLayers() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{createLayersForEngine() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{createVirtualLayersForEngine() (in module serge.blocks.utils)|hyperpage}{70}
+\indexentry{createWorldsForEngine() (in module serge.blocks.utils)|hyperpage}{71}
+\indexentry{debugMethod() (in module serge.blocks.utils)|hyperpage}{71}
+\indexentry{getGamePath() (in module serge.blocks.utils)|hyperpage}{71}
+\indexentry{getSimpleSetup() (in module serge.blocks.utils)|hyperpage}{71}
+\indexentry{worldCallback() (in module serge.blocks.utils)|hyperpage}{71}
+\indexentry{serge.blocks.visualblocks (module)|hyperpage}{71}
+\indexentry{Circle (class in serge.blocks.visualblocks)|hyperpage}{71}
+\indexentry{colour (serge.blocks.visualblocks.Circle attribute)|hyperpage}{71}
+\indexentry{radius (serge.blocks.visualblocks.Circle attribute)|hyperpage}{71}
+\indexentry{setAngle() (serge.blocks.visualblocks.Circle method)|hyperpage}{71}
+\indexentry{CircleText (class in serge.blocks.visualblocks)|hyperpage}{71}
+\indexentry{getSize() (serge.blocks.visualblocks.CircleText method)|hyperpage}{71}
+\indexentry{renderTo() (serge.blocks.visualblocks.CircleText method)|hyperpage}{71}
+\indexentry{InvalidParameters|hyperpage}{71}
+\indexentry{InvalidSprite|hyperpage}{71}
+\indexentry{OutOfRange|hyperpage}{71}
+\indexentry{OverlappingRanges|hyperpage}{72}
+\indexentry{ProgressBar (class in serge.blocks.visualblocks)|hyperpage}{72}
+\indexentry{value (serge.blocks.visualblocks.ProgressBar attribute)|hyperpage}{72}
+\indexentry{RangesNotContiguous|hyperpage}{72}
+\indexentry{Rectangle (class in serge.blocks.visualblocks)|hyperpage}{72}
+\indexentry{colour (serge.blocks.visualblocks.Rectangle attribute)|hyperpage}{72}
+\indexentry{RectangleText (class in serge.blocks.visualblocks)|hyperpage}{72}
+\indexentry{renderTo() (serge.blocks.visualblocks.RectangleText method)|hyperpage}{72}
+\indexentry{SpriteText (class in serge.blocks.visualblocks)|hyperpage}{72}
+\indexentry{renderTo() (serge.blocks.visualblocks.SpriteText method)|hyperpage}{72}
+\indexentry{setText() (serge.blocks.visualblocks.SpriteText method)|hyperpage}{72}
+\indexentry{text (serge.blocks.visualblocks.SpriteText attribute)|hyperpage}{72}
+\indexentry{TextToggle (class in serge.blocks.visualblocks)|hyperpage}{72}
+\indexentry{isOff() (serge.blocks.visualblocks.TextToggle method)|hyperpage}{72}
+\indexentry{isOn() (serge.blocks.visualblocks.TextToggle method)|hyperpage}{73}
+\indexentry{setOff() (serge.blocks.visualblocks.TextToggle method)|hyperpage}{73}
+\indexentry{setOn() (serge.blocks.visualblocks.TextToggle method)|hyperpage}{73}
+\indexentry{toggle() (serge.blocks.visualblocks.TextToggle method)|hyperpage}{73}
+\indexentry{Toggle (class in serge.blocks.visualblocks)|hyperpage}{73}
+\indexentry{serge.blocks.visualeffects (module)|hyperpage}{73}
+\indexentry{FadingLayer (class in serge.blocks.visualeffects)|hyperpage}{73}
+\indexentry{postRender() (serge.blocks.visualeffects.FadingLayer method)|hyperpage}{73}
+\indexentry{FadingScreen (class in serge.blocks.visualeffects)|hyperpage}{73}
+\indexentry{deleteFade() (serge.blocks.visualeffects.FadingScreen method)|hyperpage}{73}
+\indexentry{postRender() (serge.blocks.visualeffects.FadingScreen method)|hyperpage}{73}
+\indexentry{Shadow (class in serge.blocks.visualeffects)|hyperpage}{73}
+\indexentry{createShadow() (serge.blocks.visualeffects.Shadow method)|hyperpage}{73}
+\indexentry{ShadowLayer (class in serge.blocks.visualeffects)|hyperpage}{73}
+\indexentry{initSurface() (serge.blocks.visualeffects.ShadowLayer method)|hyperpage}{73}
+\indexentry{render() (serge.blocks.visualeffects.ShadowLayer method)|hyperpage}{73}
+\indexentry{darkenSurf() (in module serge.blocks.visualeffects)|hyperpage}{74}
+\indexentry{darkenSurf2() (in module serge.blocks.visualeffects)|hyperpage}{74}
+\indexentry{fadeSurface() (in module serge.blocks.visualeffects)|hyperpage}{74}
+\indexentry{gaussianBlur() (in module serge.blocks.visualeffects)|hyperpage}{74}
+\indexentry{serge.blocks.worker (module)|hyperpage}{74}
+\indexentry{SkippableQueue() (in module serge.blocks.worker)|hyperpage}{74}
+\indexentry{getSurfaceProcessingPipeline() (in module serge.blocks.worker)|hyperpage}{74}
+\indexentry{marshallSurface() (in module serge.blocks.worker)|hyperpage}{74}
+\indexentry{pipelineProcessor() (in module serge.blocks.worker)|hyperpage}{74}
+\indexentry{unmarshallSurface() (in module serge.blocks.worker)|hyperpage}{74}
+\indexentry{engine (module)|hyperpage}{79}
+\indexentry{Engine (class in serge.engine)|hyperpage}{79}
+\indexentry{addWorld() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{attachBuilder() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{clearWorlds() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{detachBuilder() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{getCurrentWorld() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{getKeyboard() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{getMouse() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{getRenderer() (serge.engine.Engine method)|hyperpage}{79}
+\indexentry{getSprites() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{getStats() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{getWorld() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{getWorlds() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{goBackToPreviousWorld() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{init() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{processEvents() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{removeWorld() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{removeWorldNamed() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{run() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{runAsync() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{save() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{setCurrentWorld() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{setCurrentWorldByName() (serge.engine.Engine method)|hyperpage}{80}
+\indexentry{stop() (serge.engine.Engine method)|hyperpage}{81}
+\indexentry{updateWorld() (serge.engine.Engine method)|hyperpage}{81}
+\indexentry{EngineStats (class in serge.engine)|hyperpage}{81}
+\indexentry{afterRender() (serge.engine.EngineStats method)|hyperpage}{81}
+\indexentry{beforeRender() (serge.engine.EngineStats method)|hyperpage}{81}
+\indexentry{recordFrame() (serge.engine.EngineStats method)|hyperpage}{81}
+\indexentry{zone (module)|hyperpage}{83}
+\indexentry{Zone (class in serge.zone)|hyperpage}{83}
+\indexentry{addActor() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{clearActors() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{findActorByName() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{findActorsByTag() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{findFirstActorByTag() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{getActors() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{hasActor() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{init() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{removeActor() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{setGlobalForce() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{setPhysicsStepsize() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{sleepActor() (serge.zone.Zone method)|hyperpage}{83}
+\indexentry{updatePhysics() (serge.zone.Zone method)|hyperpage}{84}
+\indexentry{updateZone() (serge.zone.Zone method)|hyperpage}{84}
+\indexentry{wakeActor() (serge.zone.Zone method)|hyperpage}{84}
+\indexentry{wouldContain() (serge.zone.Zone method)|hyperpage}{84}
+\indexentry{actor (module)|hyperpage}{84}
+\indexentry{Actor (class in serge.actor)|hyperpage}{84}
+\indexentry{addedToWorld() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{getAngle() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{getLayerName() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{getNiceName() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{getPhysical() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{getSpriteName() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{init() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{move() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{moveTo() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{removedFromWorld() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{renderTo() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{setAngle() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{setLayerName() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{setPhysical() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{setSpriteName() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{setZoom() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{syncPhysics() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{updateActor() (serge.actor.Actor method)|hyperpage}{85}
+\indexentry{CompositeActor (class in serge.actor)|hyperpage}{86}
+\indexentry{addChild() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{addedToWorld() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{getChildren() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{getChildrenWithTag() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{hasChild() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{hasChildren() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{removeChild() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{removeChildren() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{removedFromWorld() (serge.actor.CompositeActor method)|hyperpage}{86}
+\indexentry{MountableActor (class in serge.actor)|hyperpage}{87}
+\indexentry{moveTo() (serge.actor.MountableActor method)|hyperpage}{87}
+\indexentry{setAngle() (serge.actor.MountableActor method)|hyperpage}{87}
+\indexentry{PhysicallyMountableActor (class in serge.actor)|hyperpage}{87}
+\indexentry{addedToWorld() (serge.actor.PhysicallyMountableActor method)|hyperpage}{87}
+\indexentry{init() (serge.actor.PhysicallyMountableActor method)|hyperpage}{87}
+\indexentry{mountActor() (serge.actor.PhysicallyMountableActor method)|hyperpage}{87}
+\indexentry{moveTo() (serge.actor.PhysicallyMountableActor method)|hyperpage}{87}
+\indexentry{setAngle() (serge.actor.PhysicallyMountableActor method)|hyperpage}{87}
+\indexentry{unmountActor() (serge.actor.PhysicallyMountableActor method)|hyperpage}{88}
+\indexentry{ActorCollection (class in serge.actor)|hyperpage}{88}
+\indexentry{findActorByName() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{findActorsByTag() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{findActorsByTags() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{forEach() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{hasActor() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{hasActorWithName() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{hasActorWithTag() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{numberOfActorsWithName() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{numberOfActorsWithTag() (serge.actor.ActorCollection method)|hyperpage}{88}
+\indexentry{world (module)|hyperpage}{88}
+\indexentry{World (class in serge.world)|hyperpage}{88}
+\indexentry{activateWorld() (serge.world.World method)|hyperpage}{89}
+\indexentry{addActor() (serge.world.World method)|hyperpage}{89}
+\indexentry{addZone() (serge.world.World method)|hyperpage}{89}
+\indexentry{clearActors() (serge.world.World method)|hyperpage}{89}
+\indexentry{clearActorsExceptTags() (serge.world.World method)|hyperpage}{89}
+\indexentry{clearActorsWithTags() (serge.world.World method)|hyperpage}{89}
+\indexentry{clearZones() (serge.world.World method)|hyperpage}{89}
+\indexentry{deactivateWorld() (serge.world.World method)|hyperpage}{89}
+\indexentry{findActorByName() (serge.world.World method)|hyperpage}{89}
+\indexentry{findActorsAt() (serge.world.World method)|hyperpage}{89}
+\indexentry{findActorsByTag() (serge.world.World method)|hyperpage}{89}
+\indexentry{getActors() (serge.world.World method)|hyperpage}{89}
+\indexentry{getEngine() (serge.world.World method)|hyperpage}{89}
+\indexentry{hasActor() (serge.world.World method)|hyperpage}{89}
+\indexentry{init() (serge.world.World method)|hyperpage}{89}
+\indexentry{processEvents() (serge.world.World method)|hyperpage}{89}
+\indexentry{removeActor() (serge.world.World method)|hyperpage}{89}
+\indexentry{renderTo() (serge.world.World method)|hyperpage}{89}
+\indexentry{rezoneActors() (serge.world.World method)|hyperpage}{89}
+\indexentry{scheduleActorRemoval() (serge.world.World method)|hyperpage}{89}
+\indexentry{setEngine() (serge.world.World method)|hyperpage}{90}
+\indexentry{setGlobalForce() (serge.world.World method)|hyperpage}{90}
+\indexentry{setPhysicsStepsize() (serge.world.World method)|hyperpage}{90}
+\indexentry{setZoom() (serge.world.World method)|hyperpage}{90}
+\indexentry{sleepPhysicsForActors() (serge.world.World method)|hyperpage}{90}
+\indexentry{updateWorld() (serge.world.World method)|hyperpage}{90}
+\indexentry{wakePhysicsForActors() (serge.world.World method)|hyperpage}{90}
+\indexentry{camera (module)|hyperpage}{91}
+\indexentry{render (module)|hyperpage}{91}
+\indexentry{Renderer (class in serge.render)|hyperpage}{91}
+\indexentry{addLayer() (serge.render.Renderer method)|hyperpage}{91}
+\indexentry{clearLayers() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{clearSurface() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{getCamera() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{getLayer() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{getLayerBefore() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{getLayers() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{getScreenSize() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{getSurface() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{init() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{orderActors() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{preRender() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{removeLayer() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{removeLayerNamed() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{render() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{resetSurfaces() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{setCamera() (serge.render.Renderer method)|hyperpage}{92}
+\indexentry{RenderingLayer (class in serge.render)|hyperpage}{93}
+\indexentry{clearSurface() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{getNiceName() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{getSurface() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{init() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{initSurface() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{postRender() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{preRender() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{render() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{setStatic() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{setSurface() (serge.render.RenderingLayer method)|hyperpage}{93}
+\indexentry{Layer (class in serge.render)|hyperpage}{94}
+\indexentry{clearSurface() (serge.render.Layer method)|hyperpage}{94}
+\indexentry{initSurface() (serge.render.Layer method)|hyperpage}{94}
+\indexentry{render() (serge.render.Layer method)|hyperpage}{94}
+\indexentry{VirtualLayer (class in serge.render)|hyperpage}{94}
+\indexentry{clearSurface() (serge.render.VirtualLayer method)|hyperpage}{94}
+\indexentry{initSurface() (serge.render.VirtualLayer method)|hyperpage}{95}
+\indexentry{render() (serge.render.VirtualLayer method)|hyperpage}{95}
+\indexentry{Camera (class in serge.camera)|hyperpage}{95}
+\indexentry{canSee() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{canSeeActors() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{getRelativeLocation() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{getTarget() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{init() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{setTarget() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{setZoom() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{update() (serge.camera.Camera method)|hyperpage}{95}
+\indexentry{NullCamera (class in serge.camera)|hyperpage}{96}
+\indexentry{canSee() (serge.camera.NullCamera method)|hyperpage}{96}
+\indexentry{init() (serge.camera.NullCamera method)|hyperpage}{96}
+\indexentry{visual (module)|hyperpage}{97}
+\indexentry{serge.visual.Sprites (in module visual)|hyperpage}{97}
+\indexentry{serge.visual.Fonts (in module visual)|hyperpage}{97}
+\indexentry{Drawing (class in serge.visual)|hyperpage}{97}
+\indexentry{flipHorizontal() (serge.visual.Drawing method)|hyperpage}{97}
+\indexentry{flipVertical() (serge.visual.Drawing method)|hyperpage}{97}
+\indexentry{getAngle() (serge.visual.Drawing method)|hyperpage}{97}
+\indexentry{getCopy() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{renderTo() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{rotateBy() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{scaleBy() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{setAlpha() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{setAngle() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{setHorizontalFlip() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{setScale() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{setSize() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{setVerticalFlip() (serge.visual.Drawing method)|hyperpage}{98}
+\indexentry{SurfaceDrawing (class in serge.visual)|hyperpage}{98}
+\indexentry{clearSurface() (serge.visual.SurfaceDrawing method)|hyperpage}{98}
+\indexentry{getSurface() (serge.visual.SurfaceDrawing method)|hyperpage}{98}
+\indexentry{renderTo() (serge.visual.SurfaceDrawing method)|hyperpage}{98}
+\indexentry{scaleBy() (serge.visual.SurfaceDrawing method)|hyperpage}{98}
+\indexentry{setAngle() (serge.visual.SurfaceDrawing method)|hyperpage}{98}
+\indexentry{setSize() (serge.visual.SurfaceDrawing method)|hyperpage}{98}
+\indexentry{setSurface() (serge.visual.SurfaceDrawing method)|hyperpage}{98}
+\indexentry{Sprite (class in serge.visual)|hyperpage}{99}
+\indexentry{flipHorizontal() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{flipVertical() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{getCell() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{getCopy() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{getNumberOfCells() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{getSurface() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{renderTo() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{resetAnimation() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{scaleBy() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{setAlpha() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{setAngle() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{setCell() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{setCells() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{setImage() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{setSize() (serge.visual.Sprite method)|hyperpage}{99}
+\indexentry{FontStore (class in serge.visual)|hyperpage}{99}
+\indexentry{clearItems() (serge.visual.FontStore method)|hyperpage}{100}
+\indexentry{registerItem() (serge.visual.FontStore method)|hyperpage}{100}
+\indexentry{Store (class in serge.visual)|hyperpage}{100}
+\indexentry{registerFromFiles() (serge.visual.Store method)|hyperpage}{100}
+\indexentry{registerItemsFromPattern() (serge.visual.Store method)|hyperpage}{100}
+\indexentry{registerMultipleItems() (serge.visual.Store method)|hyperpage}{100}
+\indexentry{Text (class in serge.visual)|hyperpage}{100}
+\indexentry{renderTo() (serge.visual.Text method)|hyperpage}{100}
+\indexentry{scaleBy() (serge.visual.Text method)|hyperpage}{100}
+\indexentry{setAlpha() (serge.visual.Text method)|hyperpage}{100}
+\indexentry{setAngle() (serge.visual.Text method)|hyperpage}{100}
+\indexentry{setColour() (serge.visual.Text method)|hyperpage}{100}
+\indexentry{setFontSize() (serge.visual.Text method)|hyperpage}{100}
+\indexentry{setJustify() (serge.visual.Text method)|hyperpage}{101}
+\indexentry{setText() (serge.visual.Text method)|hyperpage}{101}
+\indexentry{sound (module)|hyperpage}{103}
+\indexentry{serge.sound.Sounds (in module sound)|hyperpage}{103}
+\indexentry{serge.sound.Music (in module sound)|hyperpage}{103}
+\indexentry{AudioRegistry (class in serge.sound)|hyperpage}{103}
+\indexentry{isPaused() (serge.sound.AudioRegistry method)|hyperpage}{103}
+\indexentry{isPlaying() (serge.sound.AudioRegistry method)|hyperpage}{103}
+\indexentry{pause() (serge.sound.AudioRegistry method)|hyperpage}{103}
+\indexentry{play() (serge.sound.AudioRegistry method)|hyperpage}{103}
+\indexentry{toggle() (serge.sound.AudioRegistry method)|hyperpage}{104}
+\indexentry{unpause() (serge.sound.AudioRegistry method)|hyperpage}{104}
+\indexentry{update() (serge.sound.AudioRegistry method)|hyperpage}{104}
+\indexentry{SoundItem (class in serge.sound)|hyperpage}{104}
+\indexentry{fadeout() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{get\_volume() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{isPlaying() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{pause() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{play() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{set\_volume() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{stop() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{unpause() (serge.sound.SoundItem method)|hyperpage}{104}
+\indexentry{MusicStore (class in serge.sound)|hyperpage}{104}
+\indexentry{fadeout() (serge.sound.MusicStore method)|hyperpage}{104}
+\indexentry{getVolume() (serge.sound.MusicStore method)|hyperpage}{104}
+\indexentry{isPlaying() (serge.sound.MusicStore method)|hyperpage}{104}
+\indexentry{isPlayingSong() (serge.sound.MusicStore method)|hyperpage}{104}
+\indexentry{pause() (serge.sound.MusicStore method)|hyperpage}{105}
+\indexentry{play() (serge.sound.MusicStore method)|hyperpage}{105}
+\indexentry{setPlaylist() (serge.sound.MusicStore method)|hyperpage}{105}
+\indexentry{setVolume() (serge.sound.MusicStore method)|hyperpage}{105}
+\indexentry{unpause() (serge.sound.MusicStore method)|hyperpage}{105}
+\indexentry{update() (serge.sound.MusicStore method)|hyperpage}{105}
+\indexentry{MusicItem (class in serge.sound)|hyperpage}{105}
+\indexentry{pause() (serge.sound.MusicItem method)|hyperpage}{105}
+\indexentry{play() (serge.sound.MusicItem method)|hyperpage}{105}
+\indexentry{stop() (serge.sound.MusicItem method)|hyperpage}{105}
+\indexentry{unpause() (serge.sound.MusicItem method)|hyperpage}{105}
+\indexentry{events (module)|hyperpage}{107}
+\indexentry{Keyboard (class in serge.input)|hyperpage}{107}
+\indexentry{areAnyClicked() (serge.input.Keyboard method)|hyperpage}{107}
+\indexentry{areAnyDown() (serge.input.Keyboard method)|hyperpage}{107}
+\indexentry{getClicked() (serge.input.Keyboard method)|hyperpage}{107}
+\indexentry{getTextEntered() (serge.input.Keyboard method)|hyperpage}{107}
+\indexentry{isAltDown() (serge.input.Keyboard method)|hyperpage}{107}
+\indexentry{isClicked() (serge.input.Keyboard method)|hyperpage}{107}
+\indexentry{isControlDown() (serge.input.Keyboard method)|hyperpage}{108}
+\indexentry{isDown() (serge.input.Keyboard method)|hyperpage}{108}
+\indexentry{isShiftDown() (serge.input.Keyboard method)|hyperpage}{108}
+\indexentry{isUp() (serge.input.Keyboard method)|hyperpage}{108}
+\indexentry{update() (serge.input.Keyboard method)|hyperpage}{108}
+\indexentry{KeyState (class in serge.input)|hyperpage}{108}
+\indexentry{getCopy() (serge.input.KeyState method)|hyperpage}{108}
+\indexentry{getState() (serge.input.KeyState method)|hyperpage}{108}
+\indexentry{setState() (serge.input.KeyState method)|hyperpage}{108}
+\indexentry{Mouse (class in serge.input)|hyperpage}{108}
+\indexentry{clearClick() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{getActorEvents() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{getActorsUnderMouse() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{getScreenPos() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{getStaticScreenPos() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{isClicked() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{isDown() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{isUp() (serge.input.Mouse method)|hyperpage}{108}
+\indexentry{update() (serge.input.Mouse method)|hyperpage}{109}
+\indexentry{MouseState (class in serge.input)|hyperpage}{109}
+\indexentry{getCopy() (serge.input.MouseState method)|hyperpage}{109}
+\indexentry{getState() (serge.input.MouseState method)|hyperpage}{109}
+\indexentry{setState() (serge.input.MouseState method)|hyperpage}{109}
+\indexentry{physical (module)|hyperpage}{111}
+\indexentry{PhysicalConditions (class in serge.physical)|hyperpage}{111}
+\indexentry{init() (serge.physical.PhysicalConditions method)|hyperpage}{111}
+\indexentry{setGeometry() (serge.physical.PhysicalConditions method)|hyperpage}{111}
+\indexentry{updateFrom() (serge.physical.PhysicalConditions method)|hyperpage}{111}
+\indexentry{PhysicalBody (class in serge.physical)|hyperpage}{112}
+\indexentry{events (module)|hyperpage}{113}
+\indexentry{Broadcaster (class in serge.events)|hyperpage}{113}
+\indexentry{getEventBroadcaster() (in module events)|hyperpage}{113}
+\indexentry{events (module)|hyperpage}{115}
+\indexentry{SpatialObject (class in serge.geometry)|hyperpage}{115}
+\indexentry{isInside() (serge.geometry.SpatialObject method)|hyperpage}{115}
+\indexentry{isOverlapping() (serge.geometry.SpatialObject method)|hyperpage}{115}
+\indexentry{Rectangle (class in serge.geometry)|hyperpage}{115}
+\indexentry{fromCenter() (serge.geometry.Rectangle class method)|hyperpage}{115}
+\indexentry{getArea() (serge.geometry.Rectangle method)|hyperpage}{115}
+\indexentry{getDistanceFrom() (serge.geometry.Rectangle method)|hyperpage}{115}
+\indexentry{getOrigin() (serge.geometry.Rectangle method)|hyperpage}{115}
+\indexentry{getRelativeLocation() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{getRelativeLocationCentered() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{getSpatial() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{getSpatialCentered() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{init() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{isInside() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{isOverlapping() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{move() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{moveTo() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{resizeBy() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{resizeTo() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{scale() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{setOrigin() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{setSpatial() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{setSpatialCentered() (serge.geometry.Rectangle method)|hyperpage}{116}
+\indexentry{Point (class in serge.geometry)|hyperpage}{116}
+\indexentry{isInside() (serge.geometry.Point method)|hyperpage}{116}
+\indexentry{isOverlapping() (serge.geometry.Point method)|hyperpage}{116}
+\indexentry{SimpleRect (class in serge.geometry)|hyperpage}{117}
+\indexentry{collidepoint() (serge.geometry.SimpleRect method)|hyperpage}{117}
+\indexentry{colliderect() (serge.geometry.SimpleRect method)|hyperpage}{117}
+\indexentry{contains() (serge.geometry.SimpleRect method)|hyperpage}{117}
+\indexentry{inflate() (serge.geometry.SimpleRect method)|hyperpage}{117}
+\indexentry{inflate\_ip() (serge.geometry.SimpleRect method)|hyperpage}{117}
+\indexentry{move\_ip() (serge.geometry.SimpleRect method)|hyperpage}{117}
+\indexentry{simplevecs (module)|hyperpage}{117}
+\indexentry{Vec2d (class in serge.simplevecs)|hyperpage}{117}
+\indexentry{angle (serge.simplevecs.Vec2d attribute)|hyperpage}{117}
+\indexentry{angle\_degrees (serge.simplevecs.Vec2d attribute)|hyperpage}{117}
+\indexentry{cpvrotate() (serge.simplevecs.Vec2d method)|hyperpage}{117}
+\indexentry{cpvunrotate() (serge.simplevecs.Vec2d method)|hyperpage}{117}
+\indexentry{cross() (serge.simplevecs.Vec2d method)|hyperpage}{117}
+\indexentry{dot() (serge.simplevecs.Vec2d method)|hyperpage}{117}
+\indexentry{from\_param() (serge.simplevecs.Vec2d class method)|hyperpage}{117}
+\indexentry{get\_angle\_between() (serge.simplevecs.Vec2d method)|hyperpage}{117}
+\indexentry{get\_angle\_degrees\_between() (serge.simplevecs.Vec2d method)|hyperpage}{117}
+\indexentry{get\_dist\_sqrd() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{get\_distance() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{get\_length() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{get\_length\_sqrd() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{int\_tuple (serge.simplevecs.Vec2d attribute)|hyperpage}{118}
+\indexentry{length (serge.simplevecs.Vec2d attribute)|hyperpage}{118}
+\indexentry{normalize\_return\_length() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{normalized() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{ones() (serge.simplevecs.Vec2d static method)|hyperpage}{118}
+\indexentry{rotate() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{rotate\_degrees() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{rotated() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{rotated\_degrees() (serge.simplevecs.Vec2d method)|hyperpage}{118}
+\indexentry{unit() (serge.simplevecs.Vec2d static method)|hyperpage}{118}
+\indexentry{zero() (serge.simplevecs.Vec2d static method)|hyperpage}{118}
+\indexentry{common (module)|hyperpage}{121}
+\indexentry{registry (module)|hyperpage}{121}
+\indexentry{Loggable (class in serge.common)|hyperpage}{121}
+\indexentry{addLogger() (serge.common.Loggable method)|hyperpage}{121}
+\indexentry{getLogger() (in module registry)|hyperpage}{121}
+\indexentry{EventAware (class in serge.common)|hyperpage}{121}
+\indexentry{handleEvent() (serge.common.EventAware method)|hyperpage}{121}
+\indexentry{initEvents() (serge.common.EventAware method)|hyperpage}{121}
+\indexentry{linkEvent() (serge.common.EventAware method)|hyperpage}{122}
+\indexentry{processEvent() (serge.common.EventAware method)|hyperpage}{122}
+\indexentry{registerEvent() (serge.common.EventAware method)|hyperpage}{122}
+\indexentry{registerEvents() (serge.common.EventAware method)|hyperpage}{122}
+\indexentry{registerEventsFromModule() (serge.common.EventAware method)|hyperpage}{122}
+\indexentry{unlinkEvent() (serge.common.EventAware method)|hyperpage}{122}
+\indexentry{Serializable (class in serge.serialize)|hyperpage}{122}
+\indexentry{asString() (serge.serialize.Serializable method)|hyperpage}{122}
+\indexentry{copy() (serge.serialize.Serializable method)|hyperpage}{122}
+\indexentry{createInstance() (serge.serialize.Serializable class method)|hyperpage}{122}
+\indexentry{fromFile() (serge.serialize.Serializable class method)|hyperpage}{122}
+\indexentry{fromString() (serge.serialize.Serializable class method)|hyperpage}{122}
+\indexentry{init() (serge.serialize.Serializable method)|hyperpage}{122}
+\indexentry{toFile() (serge.serialize.Serializable method)|hyperpage}{122}
+\indexentry{GeneralStore (class in serge.registry)|hyperpage}{122}
+\indexentry{clearItems() (serge.registry.GeneralStore method)|hyperpage}{122}
+\indexentry{duplicateItem() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{getItem() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{getItemDefinitions() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{getItems() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{getNames() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{init() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{registerItem() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{removeItem() (serge.registry.GeneralStore method)|hyperpage}{123}
+\indexentry{setPath() (serge.registry.GeneralStore method)|hyperpage}{123}

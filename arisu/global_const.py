@@ -12,5 +12,8 @@ BLACK = (0, 0, 0)
 TRANSPARENT = (0, 0, 0, 0)
 
 #Global dictionary for holding pictures
-ch_img = {}
+CH_IMG = {}
+
+#Logging constant
+DEBUG_MODE = 1
 
